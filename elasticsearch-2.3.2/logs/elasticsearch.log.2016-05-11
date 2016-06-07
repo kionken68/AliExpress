@@ -1,0 +1,635 @@
+[2016-05-11 09:27:20,329][INFO ][node                     ] [Barbarus] version[2.3.2], pid[5512], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 09:27:20,350][INFO ][node                     ] [Barbarus] initializing ...
+[2016-05-11 09:27:22,328][INFO ][plugins                  ] [Barbarus] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 09:27:22,530][INFO ][env                      ] [Barbarus] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 09:27:22,535][INFO ][env                      ] [Barbarus] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 09:27:27,997][INFO ][node                     ] [Barbarus] initialized
+[2016-05-11 09:27:27,999][INFO ][node                     ] [Barbarus] starting ...
+[2016-05-11 09:27:28,508][INFO ][transport                ] [Barbarus] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 09:27:28,518][INFO ][discovery                ] [Barbarus] elasticsearch/YcfSUdHfRvuDPIjddDiA1A
+[2016-05-11 09:27:32,585][INFO ][cluster.service          ] [Barbarus] new_master {Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 09:27:32,733][INFO ][http                     ] [Barbarus] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 09:27:32,737][INFO ][node                     ] [Barbarus] started
+[2016-05-11 09:27:32,984][INFO ][gateway                  ] [Barbarus] recovered [1] indices into cluster_state
+[2016-05-11 09:27:35,162][INFO ][cluster.routing.allocation] [Barbarus] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-05-11 09:45:40,339][INFO ][node                     ] [Crimson Dynamo] version[2.3.2], pid[3696], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 09:45:40,339][INFO ][node                     ] [Crimson Dynamo] initializing ...
+[2016-05-11 09:45:41,036][INFO ][plugins                  ] [Crimson Dynamo] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 09:45:41,079][INFO ][env                      ] [Crimson Dynamo] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 09:45:41,079][INFO ][env                      ] [Crimson Dynamo] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 09:45:43,319][INFO ][node                     ] [Crimson Dynamo] initialized
+[2016-05-11 09:45:43,319][INFO ][node                     ] [Crimson Dynamo] starting ...
+[2016-05-11 09:45:43,561][INFO ][transport                ] [Crimson Dynamo] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-05-11 09:45:43,566][INFO ][discovery                ] [Crimson Dynamo] elasticsearch/7XggOK0sTny960fT3LaM1g
+[2016-05-11 09:45:47,691][INFO ][cluster.service          ] [Barbarus] added {{Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301}])
+[2016-05-11 09:45:47,707][INFO ][cluster.service          ] [Crimson Dynamo] detected_master {Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300}, added {{Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [{Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300}])
+[2016-05-11 09:45:47,968][INFO ][http                     ] [Crimson Dynamo] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-05-11 09:45:47,984][INFO ][node                     ] [Crimson Dynamo] started
+[2016-05-11 09:45:51,592][INFO ][cluster.routing.allocation] [Barbarus] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[products][4]] ...]).
+[2016-05-11 09:48:15,384][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-11 09:48:15,399][INFO ][node                     ] [Barbarus] stopping ...
+[2016-05-11 09:48:15,415][INFO ][discovery.zen            ] [Crimson Dynamo] master_left [{Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2016-05-11 09:48:15,427][WARN ][discovery.zen            ] [Crimson Dynamo] master left (reason = shut_down), current nodes: {{Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301},}
+[2016-05-11 09:48:15,427][INFO ][cluster.service          ] [Crimson Dynamo] removed {{Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-master_failed ({Barbarus}{YcfSUdHfRvuDPIjddDiA1A}{127.0.0.1}{127.0.0.1:9300})
+[2016-05-11 09:48:15,618][WARN ][discovery.zen.ping.unicast] [Crimson Dynamo] failed to send ping to [{#zen_unicast_1#}{127.0.0.1}{127.0.0.1:9300}]
+RemoteTransportException[[Barbarus][127.0.0.1:9300][internal:discovery/zen/unicast]]; nested: IllegalStateException[received ping request while not started];
+Caused by: java.lang.IllegalStateException: received ping request while not started
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing.handlePingRequest(UnicastZenPing.java:497)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing.access$2400(UnicastZenPing.java:83)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$UnicastPingRequestHandler.messageReceived(UnicastZenPing.java:522)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$UnicastPingRequestHandler.messageReceived(UnicastZenPing.java:518)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:245)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:114)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-11 09:48:15,618][WARN ][discovery.zen.ping.unicast] [Crimson Dynamo] failed to send ping to [{#zen_unicast_6#}{::1}{[::1]:9300}]
+RemoteTransportException[[Barbarus][[::1]:9300][internal:discovery/zen/unicast]]; nested: IllegalStateException[received ping request while not started];
+Caused by: java.lang.IllegalStateException: received ping request while not started
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing.handlePingRequest(UnicastZenPing.java:497)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing.access$2400(UnicastZenPing.java:83)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$UnicastPingRequestHandler.messageReceived(UnicastZenPing.java:522)
+	at org.elasticsearch.discovery.zen.ping.unicast.UnicastZenPing$UnicastPingRequestHandler.messageReceived(UnicastZenPing.java:518)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:245)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:114)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-11 09:48:15,662][INFO ][node                     ] [Barbarus] stopped
+[2016-05-11 09:48:15,664][INFO ][node                     ] [Barbarus] closing ...
+[2016-05-11 09:48:15,670][INFO ][node                     ] [Barbarus] closed
+[2016-05-11 09:48:19,458][INFO ][cluster.routing.allocation] [Crimson Dynamo] Cluster health status changed from [GREEN] to [YELLOW] (reason: [nodes joined]).
+[2016-05-11 09:48:19,459][INFO ][cluster.service          ] [Crimson Dynamo] new_master {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 09:48:19,460][INFO ][cluster.routing          ] [Crimson Dynamo] delaying allocation for [5] unassigned shards, next check in [1m]
+[2016-05-11 09:48:49,132][INFO ][node                     ] [Onslaught] version[2.3.2], pid[2132], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 09:48:49,148][INFO ][node                     ] [Onslaught] initializing ...
+[2016-05-11 09:48:49,776][INFO ][plugins                  ] [Onslaught] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 09:48:49,809][INFO ][env                      ] [Onslaught] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 09:48:49,824][INFO ][env                      ] [Onslaught] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 09:48:52,240][INFO ][node                     ] [Onslaught] initialized
+[2016-05-11 09:48:52,256][INFO ][node                     ] [Onslaught] starting ...
+[2016-05-11 09:48:52,466][INFO ][transport                ] [Onslaught] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 09:48:52,487][INFO ][discovery                ] [Onslaught] elasticsearch/D62qfnPsS86mKo4xzlmplg
+[2016-05-11 09:48:56,562][INFO ][cluster.service          ] [Crimson Dynamo] added {{Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-join(join from node[{Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}])
+[2016-05-11 09:48:56,573][INFO ][cluster.service          ] [Onslaught] detected_master {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301}, added {{Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-receive(from master [{Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301}])
+[2016-05-11 09:48:56,878][INFO ][http                     ] [Onslaught] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 09:48:56,891][INFO ][node                     ] [Onslaught] started
+[2016-05-11 09:48:57,769][WARN ][indices.cluster          ] [Onslaught] [[products][4]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[products][4]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][4]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:58,160][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][4] received shard failed for target shard [[products][4], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=6psG0xr1SvSJxDX1CgfU5g], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.450Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][4]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog]; ]
+RecoveryFailedException[[products][4]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][4]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:58,232][WARN ][indices.cluster          ] [Onslaught] [[products][1]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[products][1]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][1]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:58,620][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][1] received shard failed for target shard [[products][1], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=-bqpwA7zRQao3uVFMwsXRw], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.450Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][1]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog]; ]
+RecoveryFailedException[[products][1]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][1]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:58,628][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][1] received shard failed for target shard [[products][1], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=-bqpwA7zRQao3uVFMwsXRw], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.450Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-11 09:48:58,742][WARN ][indices.cluster          ] [Onslaught] [[products][0]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[products][0]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][0]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:59,084][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][0] received shard failed for target shard [[products][0], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=M7ruh4IrQMKXL6ov6dTmRA], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.450Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][0]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog]; ]
+RecoveryFailedException[[products][0]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][0]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:59,104][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][0] received shard failed for target shard [[products][0], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=M7ruh4IrQMKXL6ov6dTmRA], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.450Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-11 09:48:59,134][WARN ][indices.cluster          ] [Onslaught] [[products][3]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[products][3]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][3]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:59,458][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][3] received shard failed for target shard [[products][3], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=kG_Wsv-bRcOEGzihwZawCw], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.449Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][3]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog]; ]
+RecoveryFailedException[[products][3]: Recovery failed from {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} into {Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}]; nested: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Crimson Dynamo][127.0.0.1:9301][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][3]] RecoverFilesRecoveryException[Failed to transfer [0] files with total size of [0b]]; nested: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Onslaught][127.0.0.1:9300][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\Project\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-11 09:48:59,474][WARN ][cluster.action.shard     ] [Crimson Dynamo] [products][3] received shard failed for target shard [[products][3], node[D62qfnPsS86mKo4xzlmplg], [R], v[36], s[INITIALIZING], a[id=kG_Wsv-bRcOEGzihwZawCw], unassigned_info[[reason=NODE_LEFT], at[2016-05-11T02:48:19.449Z], details[node_left[YcfSUdHfRvuDPIjddDiA1A]]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Crimson Dynamo}{7XggOK0sTny960fT3LaM1g}{127.0.0.1}{127.0.0.1:9301} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-11 09:49:01,102][INFO ][cluster.routing.allocation] [Crimson Dynamo] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[products][0]] ...]).
+[2016-05-11 09:49:55,844][INFO ][cluster.routing.allocation] [Crimson Dynamo] Cluster health status changed from [GREEN] to [YELLOW] (reason: [[{Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}] failed]).
+[2016-05-11 09:49:55,845][INFO ][cluster.service          ] [Crimson Dynamo] removed {{Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-node_failed({Onslaught}{D62qfnPsS86mKo4xzlmplg}{127.0.0.1}{127.0.0.1:9300}), reason transport disconnected
+[2016-05-11 09:49:55,845][INFO ][cluster.routing          ] [Crimson Dynamo] delaying allocation for [5] unassigned shards, next check in [1m]
+[2016-05-11 09:56:32,536][INFO ][node                     ] [Joystick] version[2.3.2], pid[3512], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 09:56:32,558][INFO ][node                     ] [Joystick] initializing ...
+[2016-05-11 09:56:33,408][INFO ][plugins                  ] [Joystick] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 09:56:33,451][INFO ][env                      ] [Joystick] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 09:56:33,451][INFO ][env                      ] [Joystick] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 09:56:38,234][INFO ][node                     ] [Joystick] initialized
+[2016-05-11 09:56:38,234][INFO ][node                     ] [Joystick] starting ...
+[2016-05-11 09:56:38,821][INFO ][transport                ] [Joystick] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 09:56:38,845][INFO ][discovery                ] [Joystick] elasticsearch/Z-bB5I39T9mtP0CYcPxgYA
+[2016-05-11 09:56:42,961][INFO ][cluster.service          ] [Joystick] new_master {Joystick}{Z-bB5I39T9mtP0CYcPxgYA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 09:56:43,126][INFO ][http                     ] [Joystick] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 09:56:43,126][INFO ][node                     ] [Joystick] started
+[2016-05-11 09:56:43,362][INFO ][gateway                  ] [Joystick] recovered [1] indices into cluster_state
+[2016-05-11 09:56:45,141][INFO ][cluster.routing.allocation] [Joystick] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-05-11 16:16:54,691][INFO ][node                     ] [Melee] version[2.3.2], pid[2804], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 16:16:54,717][INFO ][node                     ] [Melee] initializing ...
+[2016-05-11 16:16:55,705][INFO ][plugins                  ] [Melee] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 16:16:55,729][INFO ][env                      ] [Melee] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 16:16:55,729][INFO ][env                      ] [Melee] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 16:17:00,194][INFO ][node                     ] [Melee] initialized
+[2016-05-11 16:17:00,194][INFO ][node                     ] [Melee] starting ...
+[2016-05-11 16:17:00,827][INFO ][transport                ] [Melee] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 16:17:00,849][INFO ][discovery                ] [Melee] elasticsearch/4UtPBwWYSVSQV9robaxhXA
+[2016-05-11 16:17:06,497][INFO ][cluster.service          ] [Melee] new_master {Melee}{4UtPBwWYSVSQV9robaxhXA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 16:17:07,020][INFO ][http                     ] [Melee] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 16:17:07,020][INFO ][node                     ] [Melee] started
+[2016-05-11 16:17:07,531][INFO ][gateway                  ] [Melee] recovered [1] indices into cluster_state
+[2016-05-11 16:17:09,851][INFO ][cluster.routing.allocation] [Melee] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-05-11 17:58:38,932][INFO ][node                     ] [Jack of Hearts] version[2.3.2], pid[6636], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 17:58:38,932][INFO ][node                     ] [Jack of Hearts] initializing ...
+[2016-05-11 17:58:39,664][INFO ][plugins                  ] [Jack of Hearts] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 17:58:39,715][INFO ][env                      ] [Jack of Hearts] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 17:58:39,715][INFO ][env                      ] [Jack of Hearts] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 17:58:42,232][INFO ][node                     ] [Jack of Hearts] initialized
+[2016-05-11 17:58:42,232][INFO ][node                     ] [Jack of Hearts] starting ...
+[2016-05-11 17:58:42,430][INFO ][transport                ] [Jack of Hearts] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 17:58:42,445][INFO ][discovery                ] [Jack of Hearts] elasticsearch/KlnTkqbDQAy31mkjFcSJUw
+[2016-05-11 17:58:46,509][INFO ][cluster.service          ] [Jack of Hearts] new_master {Jack of Hearts}{KlnTkqbDQAy31mkjFcSJUw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 17:58:46,661][INFO ][http                     ] [Jack of Hearts] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 17:58:46,661][INFO ][node                     ] [Jack of Hearts] started
+[2016-05-11 17:58:46,697][INFO ][gateway                  ] [Jack of Hearts] recovered [1] indices into cluster_state
+[2016-05-11 17:58:47,699][INFO ][cluster.routing.allocation] [Jack of Hearts] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-11 21:41:14,783][INFO ][node                     ] [Pasco] version[2.3.2], pid[9100], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-11 21:41:14,853][INFO ][node                     ] [Pasco] initializing ...
+[2016-05-11 21:41:15,654][INFO ][plugins                  ] [Pasco] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-11 21:41:15,683][INFO ][env                      ] [Pasco] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-11 21:41:15,683][INFO ][env                      ] [Pasco] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-11 21:41:17,935][INFO ][node                     ] [Pasco] initialized
+[2016-05-11 21:41:17,936][INFO ][node                     ] [Pasco] starting ...
+[2016-05-11 21:41:18,131][INFO ][transport                ] [Pasco] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-11 21:41:18,147][INFO ][discovery                ] [Pasco] elasticsearch/AOS6tbsLS2iznAHMY6n2EA
+[2016-05-11 21:41:22,225][INFO ][cluster.service          ] [Pasco] new_master {Pasco}{AOS6tbsLS2iznAHMY6n2EA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-11 21:41:22,397][INFO ][http                     ] [Pasco] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-11 21:41:22,397][INFO ][node                     ] [Pasco] started
+[2016-05-11 21:41:22,619][INFO ][gateway                  ] [Pasco] recovered [1] indices into cluster_state
+[2016-05-11 21:41:26,034][INFO ][cluster.routing.allocation] [Pasco] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).

@@ -1,0 +1,38 @@
+[2016-05-24 14:08:46,571][INFO ][node                     ] [Mister Hyde] version[2.3.2], pid[4556], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-24 14:08:46,592][INFO ][node                     ] [Mister Hyde] initializing ...
+[2016-05-24 14:08:47,532][INFO ][plugins                  ] [Mister Hyde] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-24 14:08:47,554][INFO ][env                      ] [Mister Hyde] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.6gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-24 14:08:47,555][INFO ][env                      ] [Mister Hyde] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-24 14:08:51,671][INFO ][node                     ] [Mister Hyde] initialized
+[2016-05-24 14:08:51,672][INFO ][node                     ] [Mister Hyde] starting ...
+[2016-05-24 14:08:52,417][INFO ][transport                ] [Mister Hyde] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-24 14:08:52,457][INFO ][discovery                ] [Mister Hyde] elasticsearch/OzzaJk1YT82_E4JP3HKy8Q
+[2016-05-24 14:08:56,521][INFO ][cluster.service          ] [Mister Hyde] new_master {Mister Hyde}{OzzaJk1YT82_E4JP3HKy8Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-24 14:08:56,937][INFO ][http                     ] [Mister Hyde] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-24 14:08:56,937][INFO ][node                     ] [Mister Hyde] started
+[2016-05-24 14:08:57,856][INFO ][gateway                  ] [Mister Hyde] recovered [1] indices into cluster_state
+[2016-05-24 14:09:05,050][INFO ][cluster.routing.allocation] [Mister Hyde] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-24 14:23:21,929][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-24 14:23:21,930][INFO ][node                     ] [Mister Hyde] stopping ...
+[2016-05-24 14:23:22,023][INFO ][node                     ] [Mister Hyde] stopped
+[2016-05-24 14:23:22,023][INFO ][node                     ] [Mister Hyde] closing ...
+[2016-05-24 14:23:22,031][INFO ][node                     ] [Mister Hyde] closed
+[2016-05-24 15:06:41,007][INFO ][node                     ] [Omega Red] version[2.3.2], pid[320], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-24 15:06:41,007][INFO ][node                     ] [Omega Red] initializing ...
+[2016-05-24 15:06:41,696][INFO ][plugins                  ] [Omega Red] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-24 15:06:41,718][INFO ][env                      ] [Omega Red] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.6gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-24 15:06:41,718][INFO ][env                      ] [Omega Red] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-24 15:06:44,202][INFO ][node                     ] [Omega Red] initialized
+[2016-05-24 15:06:44,202][INFO ][node                     ] [Omega Red] starting ...
+[2016-05-24 15:06:44,477][INFO ][transport                ] [Omega Red] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-24 15:06:44,483][INFO ][discovery                ] [Omega Red] elasticsearch/p9yPPr8YSumMnTb2co8ZhQ
+[2016-05-24 15:06:48,557][INFO ][cluster.service          ] [Omega Red] new_master {Omega Red}{p9yPPr8YSumMnTb2co8ZhQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-24 15:06:48,715][INFO ][gateway                  ] [Omega Red] recovered [1] indices into cluster_state
+[2016-05-24 15:06:48,771][INFO ][http                     ] [Omega Red] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-24 15:06:48,771][INFO ][node                     ] [Omega Red] started
+[2016-05-24 15:06:49,971][INFO ][cluster.routing.allocation] [Omega Red] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-05-24 17:22:30,828][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-24 17:22:30,831][INFO ][node                     ] [Omega Red] stopping ...
+[2016-05-24 17:22:30,930][INFO ][node                     ] [Omega Red] stopped
+[2016-05-24 17:22:30,930][INFO ][node                     ] [Omega Red] closing ...
+[2016-05-24 17:22:30,942][INFO ][node                     ] [Omega Red] closed

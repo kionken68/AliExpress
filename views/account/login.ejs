@@ -1,0 +1,86 @@
+
+<% layout('layout') -%>
+
+<div class="columns-container">
+    <div class="container" id="columns">
+
+        <div class="breadcrumb clearfix">
+            <a class="home" href="#" title="Return to Home">Home</a>
+            <span class="navigation-pipe">&nbsp;</span>
+            <span class="navigation_page">Authentication</span>
+        </div>
+
+        <h2 class="page-heading">
+            <span class="page-heading-title2">Authentication</span>
+        </h2>
+
+        <div class="page-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="box-authentication">
+                        <h3>Create an account</h3>
+
+                        <button  class="button" onClick="Redirect();"><i class="fa fa-user" ></i>Create an account</button>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box-authentication">
+                      <form method="post">
+
+                        <h1>Already registered?</h1>
+
+                        <div class="form-group">
+                          <label="name">Email address</label>
+                          <input type="email" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label="name">Password </label>
+                          <input type="password" class="form-control" name="password">
+                        </div>
+                          <p class="forgot-pass"><a href="#">Forgot your password?</a></p>
+                        <button type="submit" class="button"><i class="fa fa-lock"></i>Sign in</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row">
+
+  <div class="col-lg-6 col-md-offset-3">
+
+<% if(message.length>0){ %>
+  <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+      <%= message %>
+  </div>
+<% } %>
+
+
+<form method="post">
+
+  <h1>Login</h1>
+
+  <div class="form-group">
+    <label="name">Email: </label>
+    <input type="email" class="form-control" name="email">
+  </div>
+  <div class="form-group">
+    <label="name">Password: </label>
+    <input type="password" class="form-control" name="password">
+  </div>
+
+  <button type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+  <br>
+  <a class="btn btn-block btn-social btn-facebook" href="/auth/facebook">
+    <i class="fa fa-facebook"></i> Sign in with Facebook
+  </a>
+</div>
+</div> -->

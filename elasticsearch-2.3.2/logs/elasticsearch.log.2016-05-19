@@ -1,0 +1,71 @@
+[2016-05-19 09:23:13,305][INFO ][node                     ] [El Aguila] version[2.3.2], pid[11248], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-19 09:23:13,305][INFO ][node                     ] [El Aguila] initializing ...
+[2016-05-19 09:23:14,552][INFO ][plugins                  ] [El Aguila] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-19 09:23:14,568][INFO ][env                      ] [El Aguila] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-19 09:23:14,568][INFO ][env                      ] [El Aguila] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-19 09:23:19,305][INFO ][node                     ] [El Aguila] initialized
+[2016-05-19 09:23:19,305][INFO ][node                     ] [El Aguila] starting ...
+[2016-05-19 09:23:19,484][INFO ][transport                ] [El Aguila] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-19 09:23:19,500][INFO ][discovery                ] [El Aguila] elasticsearch/TpSPwYATSluyhJcgQFg3ww
+[2016-05-19 09:23:23,605][INFO ][cluster.service          ] [El Aguila] new_master {El Aguila}{TpSPwYATSluyhJcgQFg3ww}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-19 09:23:23,798][INFO ][http                     ] [El Aguila] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-19 09:23:23,799][INFO ][node                     ] [El Aguila] started
+[2016-05-19 09:23:24,473][INFO ][gateway                  ] [El Aguila] recovered [1] indices into cluster_state
+[2016-05-19 09:23:26,430][INFO ][cluster.routing.allocation] [El Aguila] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-19 12:37:36,498][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-19 12:37:36,498][INFO ][node                     ] [El Aguila] stopping ...
+[2016-05-19 12:37:36,670][INFO ][node                     ] [El Aguila] stopped
+[2016-05-19 12:37:36,670][INFO ][node                     ] [El Aguila] closing ...
+[2016-05-19 12:37:36,685][INFO ][node                     ] [El Aguila] closed
+[2016-05-19 15:52:09,871][INFO ][node                     ] [Skin] version[2.3.2], pid[8048], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-19 15:52:09,871][INFO ][node                     ] [Skin] initializing ...
+[2016-05-19 15:52:10,543][INFO ][plugins                  ] [Skin] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-19 15:52:10,574][INFO ][env                      ] [Skin] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-19 15:52:10,574][INFO ][env                      ] [Skin] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-19 15:52:13,646][INFO ][node                     ] [Skin] initialized
+[2016-05-19 15:52:13,646][INFO ][node                     ] [Skin] starting ...
+[2016-05-19 15:52:13,834][INFO ][transport                ] [Skin] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-19 15:52:13,834][INFO ][discovery                ] [Skin] elasticsearch/ta7U8PyMQgeBQi8oduHOrQ
+[2016-05-19 15:52:17,943][INFO ][cluster.service          ] [Skin] new_master {Skin}{ta7U8PyMQgeBQi8oduHOrQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-19 15:52:18,068][INFO ][http                     ] [Skin] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-19 15:52:18,068][INFO ][node                     ] [Skin] started
+[2016-05-19 15:52:18,099][INFO ][gateway                  ] [Skin] recovered [1] indices into cluster_state
+[2016-05-19 15:52:19,412][INFO ][cluster.routing.allocation] [Skin] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-19 17:00:39,646][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-19 17:00:39,662][INFO ][node                     ] [Skin] stopping ...
+[2016-05-19 17:00:39,833][INFO ][node                     ] [Skin] stopped
+[2016-05-19 17:00:39,834][INFO ][node                     ] [Skin] closing ...
+[2016-05-19 17:00:39,849][INFO ][node                     ] [Skin] closed
+[2016-05-19 21:35:45,899][INFO ][node                     ] [Fight-Man] version[2.3.2], pid[11492], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-19 21:35:45,948][INFO ][node                     ] [Fight-Man] initializing ...
+[2016-05-19 21:35:47,896][INFO ][plugins                  ] [Fight-Man] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-19 21:35:48,101][INFO ][env                      ] [Fight-Man] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-19 21:35:48,109][INFO ][env                      ] [Fight-Man] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-19 21:36:01,565][INFO ][node                     ] [Fight-Man] initialized
+[2016-05-19 21:36:01,565][INFO ][node                     ] [Fight-Man] starting ...
+[2016-05-19 21:36:02,382][INFO ][transport                ] [Fight-Man] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-19 21:36:02,460][INFO ][discovery                ] [Fight-Man] elasticsearch/OwciEyVAS_e_gYiRyfmLTA
+[2016-05-19 21:36:06,580][INFO ][cluster.service          ] [Fight-Man] new_master {Fight-Man}{OwciEyVAS_e_gYiRyfmLTA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-19 21:36:06,706][INFO ][http                     ] [Fight-Man] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-19 21:36:06,707][INFO ][node                     ] [Fight-Man] started
+[2016-05-19 21:36:07,457][INFO ][gateway                  ] [Fight-Man] recovered [1] indices into cluster_state
+[2016-05-19 21:36:10,366][INFO ][cluster.routing.allocation] [Fight-Man] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-19 22:10:39,011][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-19 22:10:39,074][INFO ][node                     ] [Fight-Man] stopping ...
+[2016-05-19 22:10:41,252][INFO ][node                     ] [Fight-Man] stopped
+[2016-05-19 22:10:41,252][INFO ][node                     ] [Fight-Man] closing ...
+[2016-05-19 22:10:41,315][INFO ][node                     ] [Fight-Man] closed
+[2016-05-19 23:21:59,405][INFO ][node                     ] [Scrier] version[2.3.2], pid[10924], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-19 23:21:59,407][INFO ][node                     ] [Scrier] initializing ...
+[2016-05-19 23:22:00,200][INFO ][plugins                  ] [Scrier] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-19 23:22:00,226][INFO ][env                      ] [Scrier] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-19 23:22:00,226][INFO ][env                      ] [Scrier] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-19 23:22:03,250][INFO ][node                     ] [Scrier] initialized
+[2016-05-19 23:22:03,250][INFO ][node                     ] [Scrier] starting ...
+[2016-05-19 23:22:03,526][INFO ][transport                ] [Scrier] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-19 23:22:03,531][INFO ][discovery                ] [Scrier] elasticsearch/pDu2Wd0ZT1KpvfGAYlMZ4Q
+[2016-05-19 23:22:07,601][INFO ][cluster.service          ] [Scrier] new_master {Scrier}{pDu2Wd0ZT1KpvfGAYlMZ4Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-19 23:22:07,774][INFO ][http                     ] [Scrier] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-19 23:22:07,774][INFO ][node                     ] [Scrier] started
+[2016-05-19 23:22:08,411][INFO ][gateway                  ] [Scrier] recovered [1] indices into cluster_state
+[2016-05-19 23:22:11,818][INFO ][cluster.routing.allocation] [Scrier] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).

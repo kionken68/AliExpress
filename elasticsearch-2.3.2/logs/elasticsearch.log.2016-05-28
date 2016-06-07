@@ -1,0 +1,19 @@
+[2016-05-28 14:11:25,910][INFO ][node                     ] [Ben Urich] version[2.3.2], pid[5204], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-28 14:11:25,998][INFO ][node                     ] [Ben Urich] initializing ...
+[2016-05-28 14:11:36,458][INFO ][plugins                  ] [Ben Urich] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-28 14:11:37,580][INFO ][env                      ] [Ben Urich] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-28 14:11:37,581][INFO ][env                      ] [Ben Urich] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-28 14:12:02,991][INFO ][node                     ] [Ben Urich] initialized
+[2016-05-28 14:12:02,991][INFO ][node                     ] [Ben Urich] starting ...
+[2016-05-28 14:12:03,871][INFO ][transport                ] [Ben Urich] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-28 14:12:03,893][INFO ][discovery                ] [Ben Urich] elasticsearch/ltyTT4OaS6a_fXjPzHFcUg
+[2016-05-28 14:12:07,981][INFO ][cluster.service          ] [Ben Urich] new_master {Ben Urich}{ltyTT4OaS6a_fXjPzHFcUg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-28 14:12:08,276][INFO ][http                     ] [Ben Urich] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-28 14:12:08,276][INFO ][node                     ] [Ben Urich] started
+[2016-05-28 14:12:08,590][INFO ][gateway                  ] [Ben Urich] recovered [1] indices into cluster_state
+[2016-05-28 14:12:11,360][INFO ][cluster.routing.allocation] [Ben Urich] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-28 17:19:12,570][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-28 17:19:12,575][INFO ][node                     ] [Ben Urich] stopping ...
+[2016-05-28 17:19:12,963][INFO ][node                     ] [Ben Urich] stopped
+[2016-05-28 17:19:12,963][INFO ][node                     ] [Ben Urich] closing ...
+[2016-05-28 17:19:12,994][INFO ][node                     ] [Ben Urich] closed

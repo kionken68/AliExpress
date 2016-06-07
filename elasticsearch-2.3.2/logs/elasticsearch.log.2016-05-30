@@ -1,0 +1,38 @@
+[2016-05-30 08:54:02,342][INFO ][node                     ] [Psyche] version[2.3.2], pid[4252], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-30 08:54:02,346][INFO ][node                     ] [Psyche] initializing ...
+[2016-05-30 08:54:04,971][INFO ][plugins                  ] [Psyche] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-30 08:54:05,174][INFO ][env                      ] [Psyche] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-30 08:54:05,175][INFO ][env                      ] [Psyche] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-30 08:54:15,418][INFO ][node                     ] [Psyche] initialized
+[2016-05-30 08:54:15,419][INFO ][node                     ] [Psyche] starting ...
+[2016-05-30 08:54:16,988][INFO ][transport                ] [Psyche] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-30 08:54:17,099][INFO ][discovery                ] [Psyche] elasticsearch/FZnruyjESNaV34_RuchhyA
+[2016-05-30 08:54:21,238][INFO ][cluster.service          ] [Psyche] new_master {Psyche}{FZnruyjESNaV34_RuchhyA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-30 08:54:21,479][INFO ][http                     ] [Psyche] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-30 08:54:21,479][INFO ][node                     ] [Psyche] started
+[2016-05-30 08:54:21,544][INFO ][gateway                  ] [Psyche] recovered [1] indices into cluster_state
+[2016-05-30 08:54:23,356][INFO ][cluster.routing.allocation] [Psyche] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-30 10:11:52,709][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-30 10:11:52,711][INFO ][node                     ] [Psyche] stopping ...
+[2016-05-30 10:11:54,271][INFO ][node                     ] [Psyche] stopped
+[2016-05-30 10:11:54,272][INFO ][node                     ] [Psyche] closing ...
+[2016-05-30 10:11:54,289][INFO ][node                     ] [Psyche] closed
+[2016-05-30 10:21:09,614][INFO ][node                     ] [Wild Child] version[2.3.2], pid[6612], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-30 10:21:09,615][INFO ][node                     ] [Wild Child] initializing ...
+[2016-05-30 10:21:10,349][INFO ][plugins                  ] [Wild Child] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-30 10:21:10,373][INFO ][env                      ] [Wild Child] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-30 10:21:10,373][INFO ][env                      ] [Wild Child] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-30 10:21:13,139][INFO ][node                     ] [Wild Child] initialized
+[2016-05-30 10:21:13,139][INFO ][node                     ] [Wild Child] starting ...
+[2016-05-30 10:21:13,402][INFO ][transport                ] [Wild Child] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-30 10:21:13,407][INFO ][discovery                ] [Wild Child] elasticsearch/Q4NHIVMLRu-3tqdjIOlSnQ
+[2016-05-30 10:21:17,477][INFO ][cluster.service          ] [Wild Child] new_master {Wild Child}{Q4NHIVMLRu-3tqdjIOlSnQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-30 10:21:17,664][INFO ][gateway                  ] [Wild Child] recovered [1] indices into cluster_state
+[2016-05-30 10:21:17,708][INFO ][http                     ] [Wild Child] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-30 10:21:17,708][INFO ][node                     ] [Wild Child] started
+[2016-05-30 10:21:18,934][INFO ][cluster.routing.allocation] [Wild Child] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-30 13:27:53,613][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-30 13:27:53,629][INFO ][node                     ] [Wild Child] stopping ...
+[2016-05-30 13:27:54,142][INFO ][node                     ] [Wild Child] stopped
+[2016-05-30 13:27:54,142][INFO ][node                     ] [Wild Child] closing ...
+[2016-05-30 13:27:54,283][INFO ][node                     ] [Wild Child] closed

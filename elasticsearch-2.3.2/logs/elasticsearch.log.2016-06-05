@@ -1,0 +1,38 @@
+[2016-06-05 10:20:46,051][INFO ][node                     ] [Shiva] version[2.3.2], pid[2656], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-05 10:20:46,079][INFO ][node                     ] [Shiva] initializing ...
+[2016-06-05 10:20:48,043][INFO ][plugins                  ] [Shiva] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-05 10:20:48,254][INFO ][env                      ] [Shiva] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-05 10:20:48,255][INFO ][env                      ] [Shiva] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-05 10:20:57,486][INFO ][node                     ] [Shiva] initialized
+[2016-06-05 10:20:57,486][INFO ][node                     ] [Shiva] starting ...
+[2016-06-05 10:20:58,417][INFO ][transport                ] [Shiva] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-05 10:20:58,654][INFO ][discovery                ] [Shiva] elasticsearch/c30MtuJZQ8qsU3yK3rchEA
+[2016-06-05 10:21:02,763][INFO ][cluster.service          ] [Shiva] new_master {Shiva}{c30MtuJZQ8qsU3yK3rchEA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-05 10:21:02,991][INFO ][http                     ] [Shiva] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-05 10:21:02,991][INFO ][node                     ] [Shiva] started
+[2016-06-05 10:21:03,107][INFO ][gateway                  ] [Shiva] recovered [1] indices into cluster_state
+[2016-06-05 10:21:05,422][INFO ][cluster.routing.allocation] [Shiva] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-06-05 12:25:06,651][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-05 12:25:06,654][INFO ][node                     ] [Shiva] stopping ...
+[2016-06-05 12:25:06,775][INFO ][node                     ] [Shiva] stopped
+[2016-06-05 12:25:06,775][INFO ][node                     ] [Shiva] closing ...
+[2016-06-05 12:25:06,783][INFO ][node                     ] [Shiva] closed
+[2016-06-05 13:51:01,335][INFO ][node                     ] [Needle] version[2.3.2], pid[4424], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-05 13:51:01,336][INFO ][node                     ] [Needle] initializing ...
+[2016-06-05 13:51:02,146][INFO ][plugins                  ] [Needle] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-05 13:51:02,179][INFO ][env                      ] [Needle] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-05 13:51:02,180][INFO ][env                      ] [Needle] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-05 13:51:05,533][INFO ][node                     ] [Needle] initialized
+[2016-06-05 13:51:05,533][INFO ][node                     ] [Needle] starting ...
+[2016-06-05 13:51:05,838][INFO ][transport                ] [Needle] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-05 13:51:05,846][INFO ][discovery                ] [Needle] elasticsearch/Cmhfg2psT3mmADLZ0vELcg
+[2016-06-05 13:51:09,903][INFO ][cluster.service          ] [Needle] new_master {Needle}{Cmhfg2psT3mmADLZ0vELcg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-05 13:51:10,139][INFO ][gateway                  ] [Needle] recovered [1] indices into cluster_state
+[2016-06-05 13:51:10,366][INFO ][http                     ] [Needle] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-05 13:51:10,367][INFO ][node                     ] [Needle] started
+[2016-06-05 13:51:11,781][INFO ][cluster.routing.allocation] [Needle] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4], [products][4]] ...]).
+[2016-06-05 15:50:29,017][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-05 15:50:29,018][INFO ][node                     ] [Needle] stopping ...
+[2016-06-05 15:50:29,118][INFO ][node                     ] [Needle] stopped
+[2016-06-05 15:50:29,118][INFO ][node                     ] [Needle] closing ...
+[2016-06-05 15:50:29,123][INFO ][node                     ] [Needle] closed

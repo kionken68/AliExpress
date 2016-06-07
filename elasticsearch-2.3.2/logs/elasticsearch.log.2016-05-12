@@ -1,0 +1,14 @@
+[2016-05-12 09:25:17,040][INFO ][node                     ] [Red Ronin] version[2.3.2], pid[6288], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-12 09:25:17,043][INFO ][node                     ] [Red Ronin] initializing ...
+[2016-05-12 09:25:17,891][INFO ][plugins                  ] [Red Ronin] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-12 09:25:17,915][INFO ][env                      ] [Red Ronin] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.7gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-12 09:25:17,915][INFO ][env                      ] [Red Ronin] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-12 09:25:20,281][INFO ][node                     ] [Red Ronin] initialized
+[2016-05-12 09:25:20,281][INFO ][node                     ] [Red Ronin] starting ...
+[2016-05-12 09:25:20,494][INFO ][transport                ] [Red Ronin] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-12 09:25:20,498][INFO ][discovery                ] [Red Ronin] elasticsearch/1XchMUwqRIKGvmDYUOT5YA
+[2016-05-12 09:25:24,565][INFO ][cluster.service          ] [Red Ronin] new_master {Red Ronin}{1XchMUwqRIKGvmDYUOT5YA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-12 09:25:24,752][INFO ][http                     ] [Red Ronin] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-12 09:25:24,753][INFO ][node                     ] [Red Ronin] started
+[2016-05-12 09:25:25,727][INFO ][gateway                  ] [Red Ronin] recovered [1] indices into cluster_state
+[2016-05-12 09:25:30,877][INFO ][cluster.routing.allocation] [Red Ronin] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).

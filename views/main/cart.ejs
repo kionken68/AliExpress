@@ -1,0 +1,178 @@
+<% layout('layout') -%>
+
+
+<div class="columns-container">
+    <div class="container" id="columns">
+        <!-- breadcrumb -->
+        <div class="breadcrumb clearfix">
+            <a class="home" href="#" title="Return to Home">Home</a>
+            <span class="navigation-pipe">&nbsp;</span>
+            <span class="navigation_page">Your shopping cart</span>
+        </div>
+        <!-- ./breadcrumb -->
+        <!-- page heading-->
+        <h2 class="page-heading no-line">
+            <span class="page-heading-title2">Shopping Cart Summary</span>
+        </h2>
+        <!-- ../page heading-->
+        <div class="page-content page-order">
+            <ul class="step">
+                <li class="current-step"><span>01. Summary</span></li>
+                <li><span>02. Sign in</span></li>
+                <li><span>03. Address</span></li>
+                <li><span>04. Shipping</span></li>
+                <li><span>05. Payment</span></li>
+            </ul>
+            <div class="heading-counter warning">Your shopping cart contains:
+                <span><%=foundCart.items.length%> Product</span>
+            </div>
+            <div class="order-detail-content">
+                <table class="table table-bordered table-responsive cart_summary">
+                    <thead>
+                        <tr>
+                            <th class="cart_product">Product</th>
+                            <th>Description</th>
+                            <th>Avail.</th>
+                            <th>Unit price</th>
+                            <th>Qty</th>
+                            <th>Total</th>
+                            <th  class="action"><i class="fa fa-trash-o"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                      <% for(var i=0;i<foundCart.items.length;i++) { %>
+                        <tr>
+                            <td class="cart_product">
+                                <a href="#"><img src="<%= foundCart.items[i].item.image %>" alt="Product"></a>
+                            </td>
+                            <td class="cart_description">
+                                <p class="product-name"><a href="#"><%= foundCart.items[i].item.name %></a></p>
+                                <small class="cart_ref">SKU : #123654999</small><br>
+                                <small><a href="#">Color : Beige</a></small><br>
+                                <small><a href="#">Size : S</a></small>
+                            </td>
+                            <td class="cart_avail"><span class="label label-success">In stock</span></td>
+                            <td class="price"><span id="priceHidden"><%= foundCart.items[i].item.price %> </span>$</td>
+                            <td class="qty">
+                                <p class="form-control input-sm" id="quantity" type="text" value="<%=foundCart.items[i].quantity%>"><%=foundCart.items[i].quantity%></p>
+
+                            </td>
+                            <td class="price" id="priceValue">
+                                <span id="priceValue"><%= foundCart.items[i].item.price * foundCart.items[i].quantity%> </span>$
+                            </td>
+                            <td class="action">
+                              <form method="post" action="/remove">
+                                <input type="hidden" name="item" value="<%= foundCart.items[i]._id %>">
+                                <input type="hidden" name="price" value="<%= foundCart.items[i].price %>">
+                                <button type="submit" type="button">Xóa</button>
+                              </form>
+
+                            </td>
+                        </tr>
+                      <% } %>
+
+
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2" rowspan="2"></td>
+                            <td colspan="3">Total products (tax incl.)</td>
+                            <td colspan="2"><%= foundCart.total %> €</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><strong>Total</strong></td>
+                            <td colspan="2"><strong><%= foundCart.total %> €</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <div class="cart_navigation">
+                    <a class="prev-btn" href="#">Continue shopping</a>
+                    <div class="form-group">
+                      <input type="hidden" value="<%= foundCart.total %>">
+                      <button type="submit" class="btn btn-primary btn-lg" style="margin-left:820px;" data-toggle="modal" data-target="#myModal">Pay with Stripe</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Pay with Stripe</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><img class="pull-right" src="http://i76.imgup.net/accepted_c22e0.png">Payment Details</h3>
+                </div>
+                <div class="panel-body">
+                  <form role="form" id="payment-form" action="/payment" method="POST">
+                    <input type="hidden" name="stripeMoney" value="<%= foundCart.total*0.00001 %>">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="form-group">
+                          <label for="cardNumber">CARD NUMBER</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control" name="cardNumber" placeholder="Valid Card Number" required autofocus data-stripe="number" />
+                            <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-7 col-md-7">
+                        <div class="form-group">
+                          <label for="expMonth">EXPIRATION DATE</label>
+                          <div class="col-xs-6 col-lg-6 pl-ziro">
+                            <input type="text" class="form-control" name="expMonth" placeholder="MM" required data-stripe="exp_month" />
+                          </div>
+                          <div class="col-xs-6 col-lg-6 pl-ziro">
+                            <input type="text" class="form-control" name="expYear" placeholder="YY" required data-stripe="exp_year" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-5 col-md-5 pull-right">
+                        <div class="form-group">
+                          <label for="cvCode">CV CODE</label>
+                          <input type="password" class="form-control" name="cvCode" placeholder="CV" required data-stripe="cvc" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <button class="btn btn-success btn-lg btn-block" type="submit">Thanh Toán: $(<%= foundCart.total*0.00001 %>)</button>
+                      </div>
+                    </div>
+                    <div class="row" style="display:none;">
+                      <div class="col-xs-12">
+                        <p class="payment-errors"></p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-2 col-md-offset-6">
+  <div class="text-center" id="loading">
+</div>
+</div>

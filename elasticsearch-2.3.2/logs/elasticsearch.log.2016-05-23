@@ -1,0 +1,24 @@
+[2016-05-23 00:27:53,165][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-23 00:27:53,181][INFO ][node                     ] [Toxin] stopping ...
+[2016-05-23 00:27:53,322][INFO ][node                     ] [Toxin] stopped
+[2016-05-23 00:27:53,322][INFO ][node                     ] [Toxin] closing ...
+[2016-05-23 00:27:53,337][INFO ][node                     ] [Toxin] closed
+[2016-05-23 09:01:37,190][INFO ][node                     ] [Lighting Rod] version[2.3.2], pid[1852], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-23 09:01:37,206][INFO ][node                     ] [Lighting Rod] initializing ...
+[2016-05-23 09:01:38,597][INFO ][plugins                  ] [Lighting Rod] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-23 09:01:38,769][INFO ][env                      ] [Lighting Rod] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-23 09:01:38,769][INFO ][env                      ] [Lighting Rod] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-23 09:01:45,118][INFO ][node                     ] [Lighting Rod] initialized
+[2016-05-23 09:01:45,118][INFO ][node                     ] [Lighting Rod] starting ...
+[2016-05-23 09:01:45,478][INFO ][transport                ] [Lighting Rod] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-23 09:01:45,478][INFO ][discovery                ] [Lighting Rod] elasticsearch/8T1S-OYGQ5OJ8CuqDO7oRQ
+[2016-05-23 09:01:49,565][INFO ][cluster.service          ] [Lighting Rod] new_master {Lighting Rod}{8T1S-OYGQ5OJ8CuqDO7oRQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-23 09:01:49,737][INFO ][http                     ] [Lighting Rod] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-23 09:01:49,737][INFO ][node                     ] [Lighting Rod] started
+[2016-05-23 09:01:50,003][INFO ][gateway                  ] [Lighting Rod] recovered [1] indices into cluster_state
+[2016-05-23 09:01:51,724][INFO ][cluster.routing.allocation] [Lighting Rod] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-05-23 14:28:33,273][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-23 14:28:33,273][INFO ][node                     ] [Lighting Rod] stopping ...
+[2016-05-23 14:28:33,436][INFO ][node                     ] [Lighting Rod] stopped
+[2016-05-23 14:28:33,436][INFO ][node                     ] [Lighting Rod] closing ...
+[2016-05-23 14:28:33,502][INFO ][node                     ] [Lighting Rod] closed

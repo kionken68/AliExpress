@@ -1,0 +1,28 @@
+[2016-06-06 11:53:04,908][INFO ][node                     ] [Peter Noble] version[2.3.2], pid[3540], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-06 11:53:04,916][INFO ][node                     ] [Peter Noble] initializing ...
+[2016-06-06 11:53:46,263][INFO ][plugins                  ] [Peter Noble] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-06 11:53:49,985][INFO ][env                      ] [Peter Noble] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-06 11:53:49,986][INFO ][env                      ] [Peter Noble] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-06 11:54:54,047][INFO ][node                     ] [Peter Noble] initialized
+[2016-06-06 11:54:54,048][INFO ][node                     ] [Peter Noble] starting ...
+[2016-06-06 11:54:57,006][INFO ][transport                ] [Peter Noble] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-06 11:54:57,029][INFO ][discovery                ] [Peter Noble] elasticsearch/H0ZroF6YSyyuD61syinScA
+[2016-06-06 11:55:01,157][INFO ][cluster.service          ] [Peter Noble] new_master {Peter Noble}{H0ZroF6YSyyuD61syinScA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-06 11:55:01,418][INFO ][http                     ] [Peter Noble] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-06 11:55:01,418][INFO ][node                     ] [Peter Noble] started
+[2016-06-06 11:55:02,042][INFO ][gateway                  ] [Peter Noble] recovered [1] indices into cluster_state
+[2016-06-06 11:55:08,339][INFO ][cluster.routing.allocation] [Peter Noble] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-06-06 18:01:25,462][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-06 18:01:25,475][INFO ][node                     ] [Peter Noble] stopping ...
+[2016-06-06 18:01:25,692][INFO ][node                     ] [Peter Noble] stopped
+[2016-06-06 18:01:25,693][INFO ][node                     ] [Peter Noble] closing ...
+[2016-06-06 18:01:25,704][INFO ][node                     ] [Peter Noble] closed
+[2016-06-06 21:21:47,633][INFO ][node                     ] [Cottonmouth] version[2.3.2], pid[328], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-06 21:21:47,658][INFO ][node                     ] [Cottonmouth] initializing ...
+[2016-06-06 21:21:50,193][INFO ][plugins                  ] [Cottonmouth] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-06 21:21:51,195][INFO ][env                      ] [Cottonmouth] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-06 21:21:51,196][INFO ][env                      ] [Cottonmouth] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-06 21:22:07,601][INFO ][node                     ] [Cottonmouth] initialized
+[2016-06-06 21:22:07,601][INFO ][node                     ] [Cottonmouth] starting ...
+[2016-06-06 21:22:09,241][INFO ][transport                ] [Cottonmouth] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-06 21:22:09,310][INFO ][discovery                ] [Cottonmouth] elasticsearch/zSCZxuctQQiRkFcPh39OHw

@@ -1,0 +1,120 @@
+[2016-05-05 12:12:00,788][INFO ][node                     ] [Hairbag] version[2.3.2], pid[2844], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 12:12:00,794][INFO ][node                     ] [Hairbag] initializing ...
+[2016-05-05 12:12:01,939][INFO ][plugins                  ] [Hairbag] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 12:12:02,052][INFO ][env                      ] [Hairbag] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 12:12:02,058][INFO ][env                      ] [Hairbag] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 12:12:07,566][INFO ][node                     ] [Hairbag] initialized
+[2016-05-05 12:12:07,570][INFO ][node                     ] [Hairbag] starting ...
+[2016-05-05 12:12:07,909][INFO ][transport                ] [Hairbag] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 12:12:07,931][INFO ][discovery                ] [Hairbag] elasticsearch/WGK4FBciQpqdW1E7c5PAlA
+[2016-05-05 12:12:11,996][INFO ][cluster.service          ] [Hairbag] new_master {Hairbag}{WGK4FBciQpqdW1E7c5PAlA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 12:12:12,133][INFO ][http                     ] [Hairbag] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 12:12:12,137][INFO ][node                     ] [Hairbag] started
+[2016-05-05 12:12:12,142][INFO ][gateway                  ] [Hairbag] recovered [0] indices into cluster_state
+[2016-05-05 12:14:40,490][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-05 12:14:40,522][INFO ][node                     ] [Hairbag] stopping ...
+[2016-05-05 12:14:40,552][INFO ][node                     ] [Hairbag] stopped
+[2016-05-05 12:14:40,553][INFO ][node                     ] [Hairbag] closing ...
+[2016-05-05 12:14:40,617][INFO ][node                     ] [Hairbag] closed
+[2016-05-05 12:18:59,248][INFO ][node                     ] [Two-Gun Kid] version[2.3.2], pid[9672], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 12:18:59,251][INFO ][node                     ] [Two-Gun Kid] initializing ...
+[2016-05-05 12:18:59,872][INFO ][plugins                  ] [Two-Gun Kid] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 12:18:59,903][INFO ][env                      ] [Two-Gun Kid] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 12:18:59,910][INFO ][env                      ] [Two-Gun Kid] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 12:19:02,289][INFO ][node                     ] [Two-Gun Kid] initialized
+[2016-05-05 12:19:02,292][INFO ][node                     ] [Two-Gun Kid] starting ...
+[2016-05-05 12:19:02,524][INFO ][transport                ] [Two-Gun Kid] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 12:19:02,533][INFO ][discovery                ] [Two-Gun Kid] elasticsearch/ieXBkpPYT4WMVPCDQzNEJA
+[2016-05-05 12:19:06,572][INFO ][cluster.service          ] [Two-Gun Kid] new_master {Two-Gun Kid}{ieXBkpPYT4WMVPCDQzNEJA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 12:19:06,664][INFO ][gateway                  ] [Two-Gun Kid] recovered [0] indices into cluster_state
+[2016-05-05 12:19:06,674][INFO ][http                     ] [Two-Gun Kid] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 12:19:06,678][INFO ][node                     ] [Two-Gun Kid] started
+[2016-05-05 12:26:02,452][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-05 12:26:02,454][INFO ][node                     ] [Two-Gun Kid] stopping ...
+[2016-05-05 12:26:02,468][INFO ][node                     ] [Two-Gun Kid] stopped
+[2016-05-05 12:26:02,470][INFO ][node                     ] [Two-Gun Kid] closing ...
+[2016-05-05 12:26:02,476][INFO ][node                     ] [Two-Gun Kid] closed
+[2016-05-05 12:37:10,369][INFO ][node                     ] [Cain] version[2.3.2], pid[7220], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 12:37:10,372][INFO ][node                     ] [Cain] initializing ...
+[2016-05-05 12:37:11,059][INFO ][plugins                  ] [Cain] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 12:37:11,091][INFO ][env                      ] [Cain] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 12:37:11,098][INFO ][env                      ] [Cain] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 12:37:13,367][INFO ][node                     ] [Cain] initialized
+[2016-05-05 12:37:13,369][INFO ][node                     ] [Cain] starting ...
+[2016-05-05 12:37:13,606][INFO ][transport                ] [Cain] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 12:37:13,614][INFO ][discovery                ] [Cain] elasticsearch/J91tOMYmTNGppaIMLPgDkg
+[2016-05-05 12:37:17,648][INFO ][cluster.service          ] [Cain] new_master {Cain}{J91tOMYmTNGppaIMLPgDkg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 12:37:17,723][INFO ][gateway                  ] [Cain] recovered [0] indices into cluster_state
+[2016-05-05 12:37:17,749][INFO ][http                     ] [Cain] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 12:37:17,753][INFO ][node                     ] [Cain] started
+[2016-05-05 13:05:45,517][INFO ][node                     ] [Baron Samedi] version[2.3.2], pid[6444], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 13:05:45,521][INFO ][node                     ] [Baron Samedi] initializing ...
+[2016-05-05 13:05:46,187][INFO ][plugins                  ] [Baron Samedi] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 13:05:46,218][INFO ][env                      ] [Baron Samedi] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 13:05:46,224][INFO ][env                      ] [Baron Samedi] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 13:05:48,502][INFO ][node                     ] [Baron Samedi] initialized
+[2016-05-05 13:05:48,505][INFO ][node                     ] [Baron Samedi] starting ...
+[2016-05-05 13:05:48,725][INFO ][transport                ] [Baron Samedi] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 13:05:48,736][INFO ][discovery                ] [Baron Samedi] elasticsearch/QXP0NVsZRwKoYvzO5UBKdQ
+[2016-05-05 13:05:52,779][INFO ][cluster.service          ] [Baron Samedi] new_master {Baron Samedi}{QXP0NVsZRwKoYvzO5UBKdQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 13:05:52,873][INFO ][gateway                  ] [Baron Samedi] recovered [0] indices into cluster_state
+[2016-05-05 13:05:52,887][INFO ][http                     ] [Baron Samedi] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 13:05:52,890][INFO ][node                     ] [Baron Samedi] started
+[2016-05-05 13:19:55,035][INFO ][node                     ] [Baron Samedi] stopping ...
+[2016-05-05 13:19:55,053][INFO ][node                     ] [Baron Samedi] stopped
+[2016-05-05 13:19:55,055][INFO ][node                     ] [Baron Samedi] closing ...
+[2016-05-05 13:19:55,062][INFO ][node                     ] [Baron Samedi] closed
+[2016-05-05 13:20:12,033][INFO ][node                     ] [Erik Killmonger] version[2.3.2], pid[5852], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 13:20:12,038][INFO ][node                     ] [Erik Killmonger] initializing ...
+[2016-05-05 13:20:12,834][INFO ][plugins                  ] [Erik Killmonger] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 13:20:12,891][INFO ][env                      ] [Erik Killmonger] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 13:20:12,897][INFO ][env                      ] [Erik Killmonger] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 13:20:15,773][INFO ][node                     ] [Erik Killmonger] initialized
+[2016-05-05 13:20:15,777][INFO ][node                     ] [Erik Killmonger] starting ...
+[2016-05-05 13:20:16,013][INFO ][transport                ] [Erik Killmonger] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 13:20:16,027][INFO ][discovery                ] [Erik Killmonger] elasticsearch/FgKH6RxsQUaPG9-0DDQU5Q
+[2016-05-05 13:20:20,070][INFO ][cluster.service          ] [Erik Killmonger] new_master {Erik Killmonger}{FgKH6RxsQUaPG9-0DDQU5Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 13:20:20,198][INFO ][http                     ] [Erik Killmonger] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 13:20:20,199][INFO ][gateway                  ] [Erik Killmonger] recovered [0] indices into cluster_state
+[2016-05-05 13:20:20,202][INFO ][node                     ] [Erik Killmonger] started
+[2016-05-05 13:30:10,509][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-05 13:30:10,517][INFO ][node                     ] [Erik Killmonger] stopping ...
+[2016-05-05 13:30:10,617][INFO ][node                     ] [Erik Killmonger] stopped
+[2016-05-05 13:30:10,620][INFO ][node                     ] [Erik Killmonger] closing ...
+[2016-05-05 13:30:10,832][INFO ][node                     ] [Erik Killmonger] closed
+[2016-05-05 14:08:47,618][INFO ][node                     ] [Mekano] version[2.3.2], pid[2904], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 14:08:47,636][INFO ][node                     ] [Mekano] initializing ...
+[2016-05-05 14:08:50,578][INFO ][plugins                  ] [Mekano] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 14:08:50,729][INFO ][env                      ] [Mekano] using [1] data paths, mounts [[Data C (C:)]], net usable_space [168.1gb], net total_space [251.8gb], spins? [unknown], types [NTFS]
+[2016-05-05 14:08:50,733][INFO ][env                      ] [Mekano] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 14:08:59,055][INFO ][node                     ] [Mekano] initialized
+[2016-05-05 14:08:59,058][INFO ][node                     ] [Mekano] starting ...
+[2016-05-05 14:08:59,633][INFO ][transport                ] [Mekano] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 14:08:59,649][INFO ][discovery                ] [Mekano] elasticsearch/V1sqmX5GTRmFgpNSZuTNxQ
+[2016-05-05 14:09:03,719][INFO ][cluster.service          ] [Mekano] new_master {Mekano}{V1sqmX5GTRmFgpNSZuTNxQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 14:09:03,865][INFO ][http                     ] [Mekano] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 14:09:03,870][INFO ][node                     ] [Mekano] started
+[2016-05-05 14:09:03,903][INFO ][gateway                  ] [Mekano] recovered [0] indices into cluster_state
+[2016-05-05 14:12:45,408][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-05 14:12:45,414][INFO ][node                     ] [Mekano] stopping ...
+[2016-05-05 14:12:45,455][INFO ][node                     ] [Mekano] stopped
+[2016-05-05 14:12:45,457][INFO ][node                     ] [Mekano] closing ...
+[2016-05-05 14:12:45,471][INFO ][node                     ] [Mekano] closed
+[2016-05-05 14:25:26,066][INFO ][node                     ] [Kubik] version[2.3.2], pid[5664], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-05 14:25:26,111][INFO ][node                     ] [Kubik] initializing ...
+[2016-05-05 14:25:27,651][INFO ][plugins                  ] [Kubik] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-05 14:25:27,778][INFO ][env                      ] [Kubik] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-05 14:25:27,784][INFO ][env                      ] [Kubik] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-05 14:25:33,199][INFO ][node                     ] [Kubik] initialized
+[2016-05-05 14:25:33,201][INFO ][node                     ] [Kubik] starting ...
+[2016-05-05 14:25:33,490][INFO ][transport                ] [Kubik] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-05 14:25:33,499][INFO ][discovery                ] [Kubik] elasticsearch/9Z97sA0xTdO1obr9fdRgkA
+[2016-05-05 14:25:37,587][INFO ][cluster.service          ] [Kubik] new_master {Kubik}{9Z97sA0xTdO1obr9fdRgkA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-05 14:25:37,732][INFO ][http                     ] [Kubik] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-05 14:25:37,737][INFO ][node                     ] [Kubik] started
+[2016-05-05 14:25:37,803][INFO ][gateway                  ] [Kubik] recovered [0] indices into cluster_state
+[2016-05-05 15:42:55,879][INFO ][cluster.metadata         ] [Kubik] [products] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-05-05 15:42:58,708][INFO ][cluster.metadata         ] [Kubik] [products] create_mapping [product]
+[2016-05-05 15:42:59,212][INFO ][cluster.routing.allocation] [Kubik] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-05 17:02:10,890][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-05 17:02:11,118][INFO ][node                     ] [Kubik] stopping ...

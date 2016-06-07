@@ -1,0 +1,25 @@
+[2016-05-20 00:36:29,206][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-20 00:36:29,256][INFO ][node                     ] [Scrier] stopping ...
+[2016-05-20 00:36:29,420][INFO ][node                     ] [Scrier] stopped
+[2016-05-20 00:36:29,421][INFO ][node                     ] [Scrier] closing ...
+[2016-05-20 00:36:29,440][INFO ][node                     ] [Scrier] closed
+[2016-05-20 09:22:19,460][INFO ][node                     ] [Gargoyle] version[2.3.2], pid[9744], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-20 09:22:19,460][INFO ][node                     ] [Gargoyle] initializing ...
+[2016-05-20 09:22:20,462][INFO ][plugins                  ] [Gargoyle] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-20 09:22:20,503][INFO ][env                      ] [Gargoyle] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-20 09:22:20,503][INFO ][env                      ] [Gargoyle] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-20 09:22:23,006][INFO ][node                     ] [Gargoyle] initialized
+[2016-05-20 09:22:23,022][INFO ][node                     ] [Gargoyle] starting ...
+[2016-05-20 09:22:23,199][INFO ][transport                ] [Gargoyle] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-20 09:22:23,199][INFO ][discovery                ] [Gargoyle] elasticsearch/JdfIr_fnQwqfbWF7pJP7sQ
+[2016-05-20 09:22:27,505][INFO ][cluster.service          ] [Gargoyle] new_master {Gargoyle}{JdfIr_fnQwqfbWF7pJP7sQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-20 09:22:27,657][INFO ][http                     ] [Gargoyle] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-20 09:22:27,657][INFO ][node                     ] [Gargoyle] started
+[2016-05-20 09:22:27,859][INFO ][gateway                  ] [Gargoyle] recovered [1] indices into cluster_state
+[2016-05-20 09:22:29,578][INFO ][cluster.routing.allocation] [Gargoyle] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-20 15:19:01,754][WARN ][monitor.jvm              ] [Gargoyle] [gc][young][14904][7] duration [1s], collections [1]/[1.6s], total [1s]/[1s], memory [218.6mb]->[20.8mb]/[910.5mb], all_pools {[young] [206mb]->[1.2mb]/[309mb]}{[survivor] [0b]->[5.1mb]/[16mb]}{[old] [12.6mb]->[14.7mb]/[683mb]}
+[2016-05-20 17:49:59,682][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-20 17:49:59,791][INFO ][node                     ] [Gargoyle] stopping ...
+[2016-05-20 17:50:02,362][INFO ][node                     ] [Gargoyle] stopped
+[2016-05-20 17:50:02,362][INFO ][node                     ] [Gargoyle] closing ...
+[2016-05-20 17:50:02,659][INFO ][node                     ] [Gargoyle] closed

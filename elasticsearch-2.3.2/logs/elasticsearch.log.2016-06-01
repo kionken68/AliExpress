@@ -1,0 +1,38 @@
+[2016-06-01 08:49:55,397][INFO ][node                     ] [Sharon Friedlander] version[2.3.2], pid[4172], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-01 08:49:55,409][INFO ][node                     ] [Sharon Friedlander] initializing ...
+[2016-06-01 08:49:57,158][INFO ][plugins                  ] [Sharon Friedlander] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-01 08:49:57,364][INFO ][env                      ] [Sharon Friedlander] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-01 08:49:57,379][INFO ][env                      ] [Sharon Friedlander] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-01 08:50:07,118][INFO ][node                     ] [Sharon Friedlander] initialized
+[2016-06-01 08:50:07,118][INFO ][node                     ] [Sharon Friedlander] starting ...
+[2016-06-01 08:50:07,712][INFO ][transport                ] [Sharon Friedlander] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-01 08:50:07,727][INFO ][discovery                ] [Sharon Friedlander] elasticsearch/D08Xzsh4RYeV1QT-ES67GQ
+[2016-06-01 08:50:11,866][INFO ][cluster.service          ] [Sharon Friedlander] new_master {Sharon Friedlander}{D08Xzsh4RYeV1QT-ES67GQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-01 08:50:13,378][INFO ][http                     ] [Sharon Friedlander] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-01 08:50:13,378][INFO ][node                     ] [Sharon Friedlander] started
+[2016-06-01 08:50:13,649][INFO ][gateway                  ] [Sharon Friedlander] recovered [1] indices into cluster_state
+[2016-06-01 08:50:17,458][INFO ][cluster.routing.allocation] [Sharon Friedlander] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-06-01 13:23:28,693][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-01 13:23:28,745][INFO ][node                     ] [Sharon Friedlander] stopping ...
+[2016-06-01 13:23:29,581][INFO ][node                     ] [Sharon Friedlander] stopped
+[2016-06-01 13:23:29,581][INFO ][node                     ] [Sharon Friedlander] closing ...
+[2016-06-01 13:23:29,739][INFO ][node                     ] [Sharon Friedlander] closed
+[2016-06-01 14:40:12,628][INFO ][node                     ] [Tyrant] version[2.3.2], pid[3600], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-01 14:40:19,507][INFO ][node                     ] [Tyrant] initializing ...
+[2016-06-01 14:40:20,735][INFO ][plugins                  ] [Tyrant] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-01 14:40:20,836][INFO ][env                      ] [Tyrant] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-01 14:40:20,837][INFO ][env                      ] [Tyrant] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-01 14:40:25,716][INFO ][node                     ] [Tyrant] initialized
+[2016-06-01 14:40:25,716][INFO ][node                     ] [Tyrant] starting ...
+[2016-06-01 14:40:26,070][INFO ][transport                ] [Tyrant] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-01 14:40:26,086][INFO ][discovery                ] [Tyrant] elasticsearch/GtFkC6CfRzmygSlQXSGo1g
+[2016-06-01 14:40:30,173][INFO ][cluster.service          ] [Tyrant] new_master {Tyrant}{GtFkC6CfRzmygSlQXSGo1g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-01 14:40:30,395][INFO ][http                     ] [Tyrant] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-01 14:40:30,396][INFO ][node                     ] [Tyrant] started
+[2016-06-01 14:40:30,648][INFO ][gateway                  ] [Tyrant] recovered [1] indices into cluster_state
+[2016-06-01 14:40:34,106][INFO ][cluster.routing.allocation] [Tyrant] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-06-01 17:24:31,009][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-01 17:24:31,039][INFO ][node                     ] [Tyrant] stopping ...
+[2016-06-01 17:24:31,714][INFO ][node                     ] [Tyrant] stopped
+[2016-06-01 17:24:31,715][INFO ][node                     ] [Tyrant] closing ...
+[2016-06-01 17:24:31,799][INFO ][node                     ] [Tyrant] closed

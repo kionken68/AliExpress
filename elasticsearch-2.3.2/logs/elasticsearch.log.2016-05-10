@@ -1,0 +1,57 @@
+[2016-05-10 08:47:02,624][INFO ][node                     ] [Peter Petruski] version[2.3.2], pid[7720], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-10 08:47:02,624][INFO ][node                     ] [Peter Petruski] initializing ...
+[2016-05-10 08:47:03,903][INFO ][plugins                  ] [Peter Petruski] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-10 08:47:03,988][INFO ][env                      ] [Peter Petruski] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-10 08:47:04,004][INFO ][env                      ] [Peter Petruski] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-10 08:47:08,645][INFO ][node                     ] [Peter Petruski] initialized
+[2016-05-10 08:47:08,645][INFO ][node                     ] [Peter Petruski] starting ...
+[2016-05-10 08:47:09,115][INFO ][transport                ] [Peter Petruski] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-10 08:47:09,131][INFO ][discovery                ] [Peter Petruski] elasticsearch/yFMzgrDvTDGmmzkxOKRNFw
+[2016-05-10 08:47:13,202][INFO ][cluster.service          ] [Peter Petruski] new_master {Peter Petruski}{yFMzgrDvTDGmmzkxOKRNFw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-10 08:47:13,355][INFO ][http                     ] [Peter Petruski] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-10 08:47:13,371][INFO ][node                     ] [Peter Petruski] started
+[2016-05-10 08:47:13,603][INFO ][gateway                  ] [Peter Petruski] recovered [1] indices into cluster_state
+[2016-05-10 08:47:15,624][INFO ][cluster.routing.allocation] [Peter Petruski] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-10 12:24:38,492][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-10 12:24:38,527][INFO ][node                     ] [Peter Petruski] stopping ...
+[2016-05-10 12:24:39,012][INFO ][node                     ] [Peter Petruski] stopped
+[2016-05-10 12:24:39,014][INFO ][node                     ] [Peter Petruski] closing ...
+[2016-05-10 12:24:39,057][INFO ][node                     ] [Peter Petruski] closed
+[2016-05-10 13:06:24,063][INFO ][node                     ] [Douglock] version[2.3.2], pid[7108], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-10 13:06:24,079][INFO ][node                     ] [Douglock] initializing ...
+[2016-05-10 13:06:25,326][INFO ][plugins                  ] [Douglock] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-10 13:06:25,410][INFO ][env                      ] [Douglock] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-10 13:06:25,417][INFO ][env                      ] [Douglock] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-10 13:06:31,519][INFO ][node                     ] [Douglock] initialized
+[2016-05-10 13:06:31,522][INFO ][node                     ] [Douglock] starting ...
+[2016-05-10 13:06:31,832][INFO ][transport                ] [Douglock] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-10 13:06:31,853][INFO ][discovery                ] [Douglock] elasticsearch/OAXdlbFJR2CvG7mfL9dEvg
+[2016-05-10 13:06:35,931][INFO ][cluster.service          ] [Douglock] new_master {Douglock}{OAXdlbFJR2CvG7mfL9dEvg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-10 13:06:36,069][INFO ][http                     ] [Douglock] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-10 13:06:36,073][INFO ][node                     ] [Douglock] started
+[2016-05-10 13:06:36,129][INFO ][gateway                  ] [Douglock] recovered [1] indices into cluster_state
+[2016-05-10 13:06:37,578][INFO ][cluster.routing.allocation] [Douglock] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-10 13:07:30,199][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-10 13:07:30,202][INFO ][node                     ] [Douglock] stopping ...
+[2016-05-10 13:07:30,251][INFO ][node                     ] [Douglock] stopped
+[2016-05-10 13:07:30,252][INFO ][node                     ] [Douglock] closing ...
+[2016-05-10 13:07:30,262][INFO ][node                     ] [Douglock] closed
+[2016-05-10 16:00:04,723][INFO ][node                     ] [Puff Adder] version[2.3.2], pid[1092], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-10 16:00:04,770][INFO ][node                     ] [Puff Adder] initializing ...
+[2016-05-10 16:00:20,451][INFO ][plugins                  ] [Puff Adder] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-10 16:00:21,170][INFO ][env                      ] [Puff Adder] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.3gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-10 16:00:21,186][INFO ][env                      ] [Puff Adder] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-10 16:00:34,624][INFO ][node                     ] [Puff Adder] initialized
+[2016-05-10 16:00:34,624][INFO ][node                     ] [Puff Adder] starting ...
+[2016-05-10 16:00:35,155][INFO ][transport                ] [Puff Adder] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-10 16:00:35,171][INFO ][discovery                ] [Puff Adder] elasticsearch/W-bH8hK8R9i14mACjzaorw
+[2016-05-10 16:00:39,312][INFO ][cluster.service          ] [Puff Adder] new_master {Puff Adder}{W-bH8hK8R9i14mACjzaorw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-10 16:00:39,499][INFO ][http                     ] [Puff Adder] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-10 16:00:39,499][INFO ][node                     ] [Puff Adder] started
+[2016-05-10 16:00:39,734][INFO ][gateway                  ] [Puff Adder] recovered [1] indices into cluster_state
+[2016-05-10 16:00:41,624][INFO ][cluster.routing.allocation] [Puff Adder] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-10 18:39:51,351][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-10 18:39:51,361][INFO ][node                     ] [Puff Adder] stopping ...
+[2016-05-10 18:39:51,522][INFO ][node                     ] [Puff Adder] stopped
+[2016-05-10 18:39:51,524][INFO ][node                     ] [Puff Adder] closing ...
+[2016-05-10 18:39:51,538][INFO ][node                     ] [Puff Adder] closed

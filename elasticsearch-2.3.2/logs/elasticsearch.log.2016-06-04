@@ -1,0 +1,14 @@
+[2016-06-04 14:11:45,579][INFO ][node                     ] [Red Ghost] version[2.3.2], pid[3476], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-04 14:11:45,583][INFO ][node                     ] [Red Ghost] initializing ...
+[2016-06-04 14:11:46,532][INFO ][plugins                  ] [Red Ghost] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-04 14:11:46,566][INFO ][env                      ] [Red Ghost] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-04 14:11:46,567][INFO ][env                      ] [Red Ghost] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-04 14:11:51,872][INFO ][node                     ] [Red Ghost] initialized
+[2016-06-04 14:11:51,872][INFO ][node                     ] [Red Ghost] starting ...
+[2016-06-04 14:11:52,173][INFO ][transport                ] [Red Ghost] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-04 14:11:52,179][INFO ][discovery                ] [Red Ghost] elasticsearch/kJInGAvaSkeuz0Hr0t4yTQ
+[2016-06-04 14:11:56,273][INFO ][cluster.service          ] [Red Ghost] new_master {Red Ghost}{kJInGAvaSkeuz0Hr0t4yTQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-04 14:11:56,505][INFO ][gateway                  ] [Red Ghost] recovered [1] indices into cluster_state
+[2016-06-04 14:11:56,963][INFO ][http                     ] [Red Ghost] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-04 14:11:56,964][INFO ][node                     ] [Red Ghost] started
+[2016-06-04 14:11:58,574][INFO ][cluster.routing.allocation] [Red Ghost] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).

@@ -1,0 +1,14 @@
+[2016-06-03 09:41:37,298][INFO ][node                     ] [Carrion] version[2.3.2], pid[7816], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-03 09:41:37,305][INFO ][node                     ] [Carrion] initializing ...
+[2016-06-03 09:41:39,875][INFO ][plugins                  ] [Carrion] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-03 09:41:40,080][INFO ][env                      ] [Carrion] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.6gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-03 09:41:40,081][INFO ][env                      ] [Carrion] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-03 09:41:47,748][INFO ][node                     ] [Carrion] initialized
+[2016-06-03 09:41:47,748][INFO ][node                     ] [Carrion] starting ...
+[2016-06-03 09:41:48,972][INFO ][transport                ] [Carrion] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-03 09:41:49,046][INFO ][discovery                ] [Carrion] elasticsearch/dSlXseNIQQOGvzLLUJQmeQ
+[2016-06-03 09:41:53,130][INFO ][cluster.service          ] [Carrion] new_master {Carrion}{dSlXseNIQQOGvzLLUJQmeQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-03 09:41:53,361][INFO ][http                     ] [Carrion] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-03 09:41:53,361][INFO ][node                     ] [Carrion] started
+[2016-06-03 09:41:53,426][INFO ][gateway                  ] [Carrion] recovered [1] indices into cluster_state
+[2016-06-03 09:41:55,283][INFO ][cluster.routing.allocation] [Carrion] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).

@@ -1,0 +1,19 @@
+[2016-05-21 10:39:39,431][INFO ][node                     ] [Purple Girl] version[2.3.2], pid[5516], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-21 10:39:39,437][INFO ][node                     ] [Purple Girl] initializing ...
+[2016-05-21 10:39:40,440][INFO ][plugins                  ] [Purple Girl] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-21 10:39:40,467][INFO ][env                      ] [Purple Girl] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-21 10:39:40,468][INFO ][env                      ] [Purple Girl] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-21 10:39:43,281][INFO ][node                     ] [Purple Girl] initialized
+[2016-05-21 10:39:43,281][INFO ][node                     ] [Purple Girl] starting ...
+[2016-05-21 10:39:43,473][INFO ][transport                ] [Purple Girl] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-21 10:39:43,478][INFO ][discovery                ] [Purple Girl] elasticsearch/Yx5EKRFsQ9aESlmKjnOTew
+[2016-05-21 10:39:47,558][INFO ][cluster.service          ] [Purple Girl] new_master {Purple Girl}{Yx5EKRFsQ9aESlmKjnOTew}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-21 10:39:47,679][INFO ][http                     ] [Purple Girl] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-21 10:39:47,680][INFO ][node                     ] [Purple Girl] started
+[2016-05-21 10:39:48,386][INFO ][gateway                  ] [Purple Girl] recovered [1] indices into cluster_state
+[2016-05-21 10:39:51,030][INFO ][cluster.routing.allocation] [Purple Girl] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-05-21 17:13:52,771][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-21 17:13:52,773][INFO ][node                     ] [Purple Girl] stopping ...
+[2016-05-21 17:13:52,915][INFO ][node                     ] [Purple Girl] stopped
+[2016-05-21 17:13:52,916][INFO ][node                     ] [Purple Girl] closing ...
+[2016-05-21 17:13:52,932][INFO ][node                     ] [Purple Girl] closed

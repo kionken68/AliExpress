@@ -1,0 +1,33 @@
+[2016-05-22 08:39:11,268][INFO ][node                     ] [Corona] version[2.3.2], pid[9528], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-22 08:39:11,268][INFO ][node                     ] [Corona] initializing ...
+[2016-05-22 08:39:12,205][INFO ][plugins                  ] [Corona] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-22 08:39:12,221][INFO ][env                      ] [Corona] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-22 08:39:12,221][INFO ][env                      ] [Corona] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-22 08:39:14,825][INFO ][node                     ] [Corona] initialized
+[2016-05-22 08:39:14,825][INFO ][node                     ] [Corona] starting ...
+[2016-05-22 08:39:15,028][INFO ][transport                ] [Corona] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-22 08:39:15,028][INFO ][discovery                ] [Corona] elasticsearch/GsCO-97MR-WFLysskSPaxA
+[2016-05-22 08:39:19,159][INFO ][cluster.service          ] [Corona] new_master {Corona}{GsCO-97MR-WFLysskSPaxA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-22 08:39:19,315][INFO ][http                     ] [Corona] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-22 08:39:19,315][INFO ][node                     ] [Corona] started
+[2016-05-22 08:39:19,511][INFO ][gateway                  ] [Corona] recovered [1] indices into cluster_state
+[2016-05-22 08:39:21,864][INFO ][cluster.routing.allocation] [Corona] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-05-22 11:04:04,132][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-22 11:04:04,134][INFO ][node                     ] [Corona] stopping ...
+[2016-05-22 11:04:04,248][INFO ][node                     ] [Corona] stopped
+[2016-05-22 11:04:04,248][INFO ][node                     ] [Corona] closing ...
+[2016-05-22 11:04:04,262][INFO ][node                     ] [Corona] closed
+[2016-05-22 22:10:19,303][INFO ][node                     ] [Toxin] version[2.3.2], pid[3128], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-22 22:10:19,331][INFO ][node                     ] [Toxin] initializing ...
+[2016-05-22 22:10:20,520][INFO ][plugins                  ] [Toxin] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-22 22:10:20,547][INFO ][env                      ] [Toxin] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-22 22:10:20,547][INFO ][env                      ] [Toxin] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-22 22:10:23,144][INFO ][node                     ] [Toxin] initialized
+[2016-05-22 22:10:23,145][INFO ][node                     ] [Toxin] starting ...
+[2016-05-22 22:10:23,378][INFO ][transport                ] [Toxin] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-22 22:10:23,383][INFO ][discovery                ] [Toxin] elasticsearch/QFsHX80QQYGqLx8T63vKRA
+[2016-05-22 22:10:27,478][INFO ][cluster.service          ] [Toxin] new_master {Toxin}{QFsHX80QQYGqLx8T63vKRA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-22 22:10:27,736][INFO ][http                     ] [Toxin] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-22 22:10:27,736][INFO ][node                     ] [Toxin] started
+[2016-05-22 22:10:28,276][INFO ][gateway                  ] [Toxin] recovered [1] indices into cluster_state
+[2016-05-22 22:10:33,148][INFO ][cluster.routing.allocation] [Toxin] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).

@@ -1,0 +1,20 @@
+[2016-05-27 14:49:11,050][INFO ][node                     ] [Hardnose] version[2.3.2], pid[6180], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-27 14:49:32,789][INFO ][node                     ] [Hardnose] initializing ...
+[2016-05-27 14:49:33,774][INFO ][plugins                  ] [Hardnose] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-27 14:49:33,796][INFO ][env                      ] [Hardnose] using [1] data paths, mounts [[Data D (E:)]], net usable_space [269.6gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-27 14:49:33,797][INFO ][env                      ] [Hardnose] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-27 14:49:36,510][INFO ][node                     ] [Hardnose] initialized
+[2016-05-27 14:49:36,511][INFO ][node                     ] [Hardnose] starting ...
+[2016-05-27 14:49:36,784][INFO ][transport                ] [Hardnose] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-27 14:49:36,788][INFO ][discovery                ] [Hardnose] elasticsearch/g7CL8aM3RaSzoi1mitWC5A
+[2016-05-27 14:49:40,888][INFO ][cluster.service          ] [Hardnose] new_master {Hardnose}{g7CL8aM3RaSzoi1mitWC5A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-27 14:49:41,223][INFO ][http                     ] [Hardnose] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-27 14:49:41,225][INFO ][node                     ] [Hardnose] started
+[2016-05-27 14:49:41,544][INFO ][gateway                  ] [Hardnose] recovered [1] indices into cluster_state
+[2016-05-27 14:49:45,796][INFO ][cluster.routing.allocation] [Hardnose] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
+[2016-05-27 16:54:16,498][INFO ][cluster.metadata         ] [Hardnose] [products] update_mapping [product]
+[2016-05-27 17:27:25,809][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-27 17:27:25,812][INFO ][node                     ] [Hardnose] stopping ...
+[2016-05-27 17:27:25,977][INFO ][node                     ] [Hardnose] stopped
+[2016-05-27 17:27:25,978][INFO ][node                     ] [Hardnose] closing ...
+[2016-05-27 17:27:25,995][INFO ][node                     ] [Hardnose] closed

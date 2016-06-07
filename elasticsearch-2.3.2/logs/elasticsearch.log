@@ -1,0 +1,14 @@
+[2016-06-07 08:40:38,590][INFO ][node                     ] [Fred Myers] version[2.3.2], pid[116], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-07 08:40:38,594][INFO ][node                     ] [Fred Myers] initializing ...
+[2016-06-07 08:40:40,199][INFO ][plugins                  ] [Fred Myers] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-07 08:40:40,353][INFO ][env                      ] [Fred Myers] using [1] data paths, mounts [[Data D (E:)]], net usable_space [266.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-07 08:40:40,354][INFO ][env                      ] [Fred Myers] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-07 08:40:48,105][INFO ][node                     ] [Fred Myers] initialized
+[2016-06-07 08:40:48,105][INFO ][node                     ] [Fred Myers] starting ...
+[2016-06-07 08:40:49,033][INFO ][transport                ] [Fred Myers] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-07 08:40:49,049][INFO ][discovery                ] [Fred Myers] elasticsearch/_n08kUukSUOnlc6aTfMPxw
+[2016-06-07 08:40:53,111][INFO ][cluster.service          ] [Fred Myers] new_master {Fred Myers}{_n08kUukSUOnlc6aTfMPxw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-07 08:40:53,414][INFO ][http                     ] [Fred Myers] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-07 08:40:53,414][INFO ][node                     ] [Fred Myers] started
+[2016-06-07 08:40:54,141][INFO ][gateway                  ] [Fred Myers] recovered [1] indices into cluster_state
+[2016-06-07 08:41:00,228][INFO ][cluster.routing.allocation] [Fred Myers] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).

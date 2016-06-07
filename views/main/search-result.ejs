@@ -1,0 +1,87 @@
+<!-- <% layout('layout') -%>
+<div class="container">
+  <div class="row">
+
+<% if(data.length===0) { %>
+  <h3>Search not found with "<%=query %>"</h3>
+  <% } else { %>
+    <h3>Results for "<%=query %>"</h3>
+
+    <ul class="row product-list grid" id="searchResults">
+    <% if(products.length>0){ %>
+        <% for(var i=0;i < products.length;i++) { %>
+          <li class="col-sx-12 col-sm-4">
+              <div class="product-container">
+                  <div class="left-block">
+                      <a href="/product/<%= data[i]._id %>">
+                          <img class="img-responsive" alt="product" src="<%= data[i]._source.image %>" />
+                      </a>
+                      <div class="quick-view">
+                              <a title="Add to my wishlist" class="heart" href="#"></a>
+                              <a title="Add to compare" class="compare" href="#"></a>
+                              <a title="Quick view" class="search" href="#"></a>
+                      </div>
+                      <div class="add-to-cart">
+                          <a title="Add to Cart" href="#add">Add to Cart</a>
+                      </div>
+                  </div>
+                  <div class="right-block">
+                      <h5 class="product-name"><a href="/product/<%= data[i]._id%>"><%= data[i]._source.name %></a></h5>
+                      <div class="product-star">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half-o"></i>
+                      </div>
+                      <div class="content_price">
+                        <%
+                        if(products[i].price!=0){ %>
+                          <span class="price product-price"><%= data[i]._source.price %> VND</span>
+                          <span class="price old-price"><%= data[i]._source.price *1.5 %> VND</span>
+                        <% }else { %>
+                          <span class="price product-price">Giá Liên Hệ</span>
+
+                        <% } %>
+                      </div>
+                      <div class="info-orther">
+                          <p>Item Code: #453217907</p>
+                          <p class="availability">Availability: <span>In stock</span></p>
+                          <div class="product-desc">
+                              Vestibulum eu odio. Suspendisse potenti. Morbi mollis tellus ac sapien. Praesent egestas tristique nibh. Nullam dictum felis eu pede mollis pretium. Fusce egestas elit eget lorem. In auctor lobortis lacus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+
+        <% } %>
+      <% } else { %>
+      <h1>No Product</h1>
+      <% } %>
+    </ul>
+
+  </div>
+</div>
+
+    <!-- <div class="view-product-list">
+    <div class="row">
+      <h3>Số lượng:<%= data.length %></h3>
+      <% for(var i=0;i < data.length;i++) { %>
+      <div class="col-md-4">
+        <a href="/product/<%= data[i]._source._id %>">
+            <div class="thumbnail">
+              <img src="<%= data[i]._source.image %>"/>
+              <div class="caption">
+                  <h3><%= data[i]._source.name %></h3>
+                  <p><%= data[i]._source.category.name %></h3>
+                  <p>$<%= data[i]._source.price %></p>
+              </div>
+            </div>
+        </a>
+      </div>
+      <% } %>
+    </div>
+  </div> 
+
+<% } %> -->

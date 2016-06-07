@@ -1,0 +1,367 @@
+[2016-05-09 09:10:26,451][INFO ][node                     ] [Orchid] version[2.3.2], pid[7856], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-09 09:10:26,473][INFO ][node                     ] [Orchid] initializing ...
+[2016-05-09 09:10:28,222][INFO ][plugins                  ] [Orchid] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-09 09:10:28,408][INFO ][env                      ] [Orchid] using [1] data paths, mounts [[Data D (E:)]], net usable_space [301.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-09 09:10:28,413][INFO ][env                      ] [Orchid] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-09 09:10:45,755][INFO ][node                     ] [Orchid] initialized
+[2016-05-09 09:10:45,757][INFO ][node                     ] [Orchid] starting ...
+[2016-05-09 09:10:47,455][INFO ][transport                ] [Orchid] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-09 09:10:47,554][INFO ][discovery                ] [Orchid] elasticsearch/mn108NteTW6vXPhpH9n-oA
+[2016-05-09 09:10:51,606][INFO ][cluster.service          ] [Orchid] new_master {Orchid}{mn108NteTW6vXPhpH9n-oA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-09 09:10:51,809][INFO ][http                     ] [Orchid] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-09 09:10:51,813][INFO ][node                     ] [Orchid] started
+[2016-05-09 09:10:52,079][INFO ][gateway                  ] [Orchid] recovered [1] indices into cluster_state
+[2016-05-09 09:10:54,086][INFO ][cluster.routing.allocation] [Orchid] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4]] ...]).
+[2016-05-09 14:07:25,766][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-09 14:07:25,766][INFO ][node                     ] [Orchid] stopping ...
+[2016-05-09 14:07:26,703][INFO ][node                     ] [Orchid] stopped
+[2016-05-09 14:07:26,703][INFO ][node                     ] [Orchid] closing ...
+[2016-05-09 14:07:26,734][INFO ][node                     ] [Orchid] closed
+[2016-05-09 14:11:40,162][INFO ][node                     ] [Kid Colt] version[2.3.2], pid[7120], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-09 14:11:40,194][INFO ][node                     ] [Kid Colt] initializing ...
+[2016-05-09 14:11:42,116][INFO ][plugins                  ] [Kid Colt] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-09 14:11:42,303][INFO ][env                      ] [Kid Colt] using [1] data paths, mounts [[Data D (E:)]], net usable_space [301.2gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-09 14:11:42,319][INFO ][env                      ] [Kid Colt] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-09 14:11:48,027][INFO ][node                     ] [Kid Colt] initialized
+[2016-05-09 14:11:48,027][INFO ][node                     ] [Kid Colt] starting ...
+[2016-05-09 14:11:48,668][INFO ][transport                ] [Kid Colt] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-09 14:11:48,699][INFO ][discovery                ] [Kid Colt] elasticsearch/KCngQ70ESM2E5I9MfsC_AQ
+[2016-05-09 14:11:52,824][INFO ][cluster.service          ] [Kid Colt] new_master {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-09 14:11:53,027][INFO ][http                     ] [Kid Colt] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-09 14:11:53,027][INFO ][node                     ] [Kid Colt] started
+[2016-05-09 14:11:53,403][INFO ][gateway                  ] [Kid Colt] recovered [1] indices into cluster_state
+[2016-05-09 14:11:55,012][INFO ][cluster.routing.allocation] [Kid Colt] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-09 14:27:50,792][INFO ][cluster.service          ] [Kid Colt] added {{Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}])
+[2016-05-09 14:27:52,179][WARN ][cluster.action.shard     ] [Kid Colt] [products][0] received shard failed for target shard [[products][0], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=fMKXyqwiS2Gkg3qBid5Mgg], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][0]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog]; ]
+RecoveryFailedException[[products][0]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][0]] RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+Caused by: [products][[products][0]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\0\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-09 14:27:52,702][WARN ][cluster.action.shard     ] [Kid Colt] [products][1] received shard failed for target shard [[products][1], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=6b7NHtcdSX-augy36VwHfQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][1]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog]; ]
+RecoveryFailedException[[products][1]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][1]] RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [7kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+Caused by: [products][[products][1]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\1\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-09 14:27:52,702][WARN ][cluster.action.shard     ] [Kid Colt] [products][1] received shard failed for target shard [[products][1], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=6b7NHtcdSX-augy36VwHfQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-09 14:27:53,302][WARN ][cluster.action.shard     ] [Kid Colt] [products][2] received shard failed for target shard [[products][2], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=4aLDqY-lQ0yv2CmSMiSBWA], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][2]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [5.9kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog]; ]
+RecoveryFailedException[[products][2]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [5.9kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [5.9kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+Caused by: [products][[products][2]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [5.9kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][2]] RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [5.9kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+Caused by: [products][[products][2]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\2\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-09 14:27:53,302][WARN ][cluster.action.shard     ] [Kid Colt] [products][2] received shard failed for target shard [[products][2], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=4aLDqY-lQ0yv2CmSMiSBWA], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-09 14:27:53,903][WARN ][cluster.action.shard     ] [Kid Colt] [products][3] received shard failed for target shard [[products][3], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=JmE2Xb3IQzKdgG4WUlgSGA], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][3]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [8.2kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog]; ]
+RecoveryFailedException[[products][3]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [8.2kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [8.2kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [8.2kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][3]] RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [8.2kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+Caused by: [products][[products][3]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\3\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-09 14:27:54,199][WARN ][cluster.action.shard     ] [Kid Colt] [products][3] received shard failed for target shard [[products][3], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=JmE2Xb3IQzKdgG4WUlgSGA], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-09 14:27:53,904][WARN ][cluster.action.shard     ] [Kid Colt] [products][3] received shard failed for target shard [[products][3], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=JmE2Xb3IQzKdgG4WUlgSGA], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [master {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2016-05-09 14:27:55,501][WARN ][cluster.action.shard     ] [Kid Colt] [products][4] received shard failed for target shard [[products][4], node[oxrMQFk8SbGmA2_vzA39WA], [R], v[13], s[INITIALIZING], a[id=n962kB2pRv2T86ioTu1SQQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2016-05-09T07:11:53.074Z]]], indexUUID [Oe4HfD9JSF6Vwvd1eTrVow], message [failed recovery], failure [RecoveryFailedException[[products][4]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.5kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog]; ]
+RecoveryFailedException[[products][4]: Recovery failed from {Kid Colt}{KCngQ70ESM2E5I9MfsC_AQ}{127.0.0.1}{127.0.0.1:9300} into {Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}]; nested: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.5kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Kid Colt][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.5kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] RecoveryEngineException[Phase[1] phase1 failed]; nested: RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.5kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource.recover(RecoverySource.java:126)
+	at org.elasticsearch.indices.recovery.RecoverySource.access$200(RecoverySource.java:52)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:135)
+	at org.elasticsearch.indices.recovery.RecoverySource$StartRecoveryTransportRequestHandler.messageReceived(RecoverySource.java:132)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [products][[products][4]] RecoverFilesRecoveryException[Failed to transfer [4] files with total size of [6.5kb]]; nested: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.phase1(RecoverySourceHandler.java:453)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandler.recoverToTarget(RecoverySourceHandler.java:133)
+	... 11 more
+Caused by: RemoteTransportException[[Heather Cameron][127.0.0.1:9301][internal:index/shard/recovery/prepare_translog]]; nested: EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+Caused by: [products][[products][4]] EngineCreationFailureException[failed to create engine]; nested: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog];
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:155)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1515)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1499)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:972)
+	at org.elasticsearch.index.shard.IndexShard.skipTranslogRecovery(IndexShard.java:983)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:275)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:300)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: NotSerializableExceptionWrapper[access_denied_exception: E:\Study\TuHocNodeJs\GitClone\Amazon_Web\elasticsearch-2.3.2\data\elasticsearch\nodes\0\indices\products\4\translog]
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at java.nio.file.Files.createAndCheckIsDirectory(Files.java:781)
+	at java.nio.file.Files.createDirectories(Files.java:767)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:200)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:208)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:151)
+	... 14 more
+[2016-05-09 14:27:55,985][INFO ][cluster.routing.allocation] [Kid Colt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[products][4]] ...]).
+[2016-05-09 14:34:19,682][INFO ][cluster.routing.allocation] [Kid Colt] Cluster health status changed from [GREEN] to [YELLOW] (reason: [[{Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301}] left]).
+[2016-05-09 14:34:19,698][INFO ][cluster.service          ] [Kid Colt] removed {{Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node_left({Heather Cameron}{oxrMQFk8SbGmA2_vzA39WA}{127.0.0.1}{127.0.0.1:9301})
+[2016-05-09 14:34:19,707][INFO ][cluster.routing          ] [Kid Colt] delaying allocation for [5] unassigned shards, next check in [1m]
+[2016-05-09 14:34:44,664][INFO ][cluster.service          ] [Kid Colt] added {{Shriker}{op_j_namSl-oeTglSJtKpw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Shriker}{op_j_namSl-oeTglSJtKpw}{127.0.0.1}{127.0.0.1:9301}])
+[2016-05-09 14:34:46,904][INFO ][cluster.routing.allocation] [Kid Colt] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[products][4]] ...]).
+[2016-05-09 14:34:56,814][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-09 14:34:56,818][INFO ][node                     ] [Kid Colt] stopping ...
+[2016-05-09 14:34:56,910][INFO ][node                     ] [Kid Colt] stopped
+[2016-05-09 14:34:56,911][INFO ][node                     ] [Kid Colt] closing ...
+[2016-05-09 14:34:56,920][INFO ][node                     ] [Kid Colt] closed
+[2016-05-09 16:40:27,170][INFO ][node                     ] [Lurking Unknown] version[2.3.2], pid[5436], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-09 16:40:27,191][INFO ][node                     ] [Lurking Unknown] initializing ...
+[2016-05-09 16:40:28,594][INFO ][plugins                  ] [Lurking Unknown] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-09 16:40:28,713][INFO ][env                      ] [Lurking Unknown] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.4gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-09 16:40:28,717][INFO ][env                      ] [Lurking Unknown] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-09 16:40:33,781][INFO ][node                     ] [Lurking Unknown] initialized
+[2016-05-09 16:40:33,784][INFO ][node                     ] [Lurking Unknown] starting ...
+[2016-05-09 16:40:34,106][INFO ][transport                ] [Lurking Unknown] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-09 16:40:34,114][INFO ][discovery                ] [Lurking Unknown] elasticsearch/ttROSebSQleIIIQ-aK38vQ
+[2016-05-09 16:40:38,202][INFO ][cluster.service          ] [Lurking Unknown] new_master {Lurking Unknown}{ttROSebSQleIIIQ-aK38vQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-09 16:40:38,400][INFO ][http                     ] [Lurking Unknown] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-09 16:40:38,403][INFO ][node                     ] [Lurking Unknown] started
+[2016-05-09 16:40:38,614][INFO ][gateway                  ] [Lurking Unknown] recovered [1] indices into cluster_state
+[2016-05-09 16:40:40,048][INFO ][cluster.routing.allocation] [Lurking Unknown] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-05-09 16:41:42,233][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-09 16:41:42,235][INFO ][node                     ] [Lurking Unknown] stopping ...
+[2016-05-09 16:41:42,299][INFO ][node                     ] [Lurking Unknown] stopped
+[2016-05-09 16:41:42,301][INFO ][node                     ] [Lurking Unknown] closing ...
+[2016-05-09 16:41:42,307][INFO ][node                     ] [Lurking Unknown] closed
+[2016-05-09 16:42:56,887][INFO ][node                     ] [Aero] version[2.3.2], pid[3692], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-09 16:42:56,903][INFO ][node                     ] [Aero] initializing ...
+[2016-05-09 16:42:57,512][INFO ][plugins                  ] [Aero] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-09 16:42:57,544][INFO ][env                      ] [Aero] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.4gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-09 16:42:57,544][INFO ][env                      ] [Aero] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-09 16:42:59,856][INFO ][node                     ] [Aero] initialized
+[2016-05-09 16:42:59,856][INFO ][node                     ] [Aero] starting ...
+[2016-05-09 16:43:00,080][INFO ][transport                ] [Aero] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-09 16:43:00,096][INFO ][discovery                ] [Aero] elasticsearch/7fRjBIoQQ--KHExH2WFRYA
+[2016-05-09 16:43:04,174][INFO ][cluster.service          ] [Aero] new_master {Aero}{7fRjBIoQQ--KHExH2WFRYA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-09 16:43:04,330][INFO ][http                     ] [Aero] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-09 16:43:04,330][INFO ][node                     ] [Aero] started
+[2016-05-09 16:43:04,377][INFO ][gateway                  ] [Aero] recovered [1] indices into cluster_state
+[2016-05-09 16:43:05,799][INFO ][cluster.routing.allocation] [Aero] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-09 17:28:57,696][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-09 17:28:57,696][INFO ][node                     ] [Aero] stopping ...
+[2016-05-09 17:28:58,803][INFO ][node                     ] [Aero] stopped
+[2016-05-09 17:28:58,803][INFO ][node                     ] [Aero] closing ...
+[2016-05-09 17:28:58,819][INFO ][node                     ] [Aero] closed

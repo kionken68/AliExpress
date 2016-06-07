@@ -1,0 +1,40 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "This is an ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kionken68/Amazon_Web.git"
+  },
+  "author": "AnhTuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kionken68/Amazon_Web/issues"
+  },
+  "homepage": "https://github.com/kionken68/Amazon_Web#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.13.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.13.0",
+    "faker": "^3.1.0",
+    "mongoosastic": "^4.0.2",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "stripe": "^4.6.0"
+  }
+}

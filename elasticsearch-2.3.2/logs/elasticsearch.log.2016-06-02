@@ -1,0 +1,39 @@
+[2016-06-02 09:01:44,325][INFO ][node                     ] [Ricadonna] version[2.3.2], pid[5736], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-02 09:01:44,353][INFO ][node                     ] [Ricadonna] initializing ...
+[2016-06-02 09:01:46,364][INFO ][plugins                  ] [Ricadonna] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-02 09:24:11,935][INFO ][env                      ] [Ricadonna] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-02 09:24:11,936][INFO ][env                      ] [Ricadonna] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-02 09:24:21,840][INFO ][node                     ] [Ricadonna] initialized
+[2016-06-02 09:24:21,840][INFO ][node                     ] [Ricadonna] starting ...
+[2016-06-02 09:24:22,578][INFO ][transport                ] [Ricadonna] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-02 09:24:22,610][INFO ][discovery                ] [Ricadonna] elasticsearch/2DOOFAMCSGyjPP1ZuiF_mA
+[2016-06-02 09:24:26,763][INFO ][cluster.service          ] [Ricadonna] new_master {Ricadonna}{2DOOFAMCSGyjPP1ZuiF_mA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-02 09:24:27,024][INFO ][http                     ] [Ricadonna] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-02 09:24:27,025][INFO ][node                     ] [Ricadonna] started
+[2016-06-02 09:24:27,156][INFO ][gateway                  ] [Ricadonna] recovered [1] indices into cluster_state
+[2016-06-02 09:24:29,594][INFO ][cluster.routing.allocation] [Ricadonna] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-06-02 09:41:15,358][INFO ][cluster.metadata         ] [Ricadonna] [products] update_mapping [product]
+[2016-06-02 12:06:15,501][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-02 12:06:15,505][INFO ][node                     ] [Ricadonna] stopping ...
+[2016-06-02 12:06:15,820][INFO ][node                     ] [Ricadonna] stopped
+[2016-06-02 12:06:15,820][INFO ][node                     ] [Ricadonna] closing ...
+[2016-06-02 12:06:15,883][INFO ][node                     ] [Ricadonna] closed
+[2016-06-02 13:59:47,421][INFO ][node                     ] [Armory] version[2.3.2], pid[6396], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-06-02 13:59:47,422][INFO ][node                     ] [Armory] initializing ...
+[2016-06-02 13:59:48,056][INFO ][plugins                  ] [Armory] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-06-02 13:59:48,214][INFO ][env                      ] [Armory] using [1] data paths, mounts [[Data D (E:)]], net usable_space [267.9gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-06-02 13:59:48,215][INFO ][env                      ] [Armory] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-06-02 13:59:53,704][INFO ][node                     ] [Armory] initialized
+[2016-06-02 13:59:53,705][INFO ][node                     ] [Armory] starting ...
+[2016-06-02 13:59:54,072][INFO ][transport                ] [Armory] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-02 13:59:54,085][INFO ][discovery                ] [Armory] elasticsearch/M5oLmoomTI2BXCoR5N953w
+[2016-06-02 13:59:58,147][INFO ][cluster.service          ] [Armory] new_master {Armory}{M5oLmoomTI2BXCoR5N953w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-02 13:59:58,413][INFO ][http                     ] [Armory] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-02 13:59:58,413][INFO ][node                     ] [Armory] started
+[2016-06-02 13:59:59,132][INFO ][gateway                  ] [Armory] recovered [1] indices into cluster_state
+[2016-06-02 14:00:00,732][INFO ][cluster.routing.allocation] [Armory] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1], [products][1]] ...]).
+[2016-06-02 17:14:06,429][INFO ][bootstrap                ] running graceful exit on windows
+[2016-06-02 17:14:06,878][INFO ][node                     ] [Armory] stopping ...
+[2016-06-02 17:14:08,345][INFO ][node                     ] [Armory] stopped
+[2016-06-02 17:14:08,345][INFO ][node                     ] [Armory] closing ...
+[2016-06-02 17:14:08,522][INFO ][node                     ] [Armory] closed

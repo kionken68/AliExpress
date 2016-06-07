@@ -1,0 +1,1052 @@
+<% layout('layout') -%>
+<div id="nav-top-menu" class="nav-top-menu">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3" id="box-vertical-megamenus">
+            <div class="box-vertical-megamenus">
+                <h4 class="title">
+                    <span class="title-menu">Danh mục</span>
+                    <span class="btn-open-mobile pull-right home-page"><i class="fa fa-bars"></i></span>
+                </h4>
+            <div class="vertical-menu-content is-home">
+                <ul class="vertical-menu-list">
+                    <% for (var i=0;i<11;i++){ %>
+                      <li><a href="/products/<%= categories[i]._id %>"><img class="icon-menu" alt="Funky roots" src="/assets/data/<%= i+1 %>.png"><%= categories[i].name %></a></li>
+                    <% } %>
+                    <li class="cat-link-orther"><a href="/products/<%= categories[11]._id %>"><img class="icon-menu" alt="Funky roots" src="/assets/data/<%= 12 %>.png"><%= categories[11].name %></a></li>
+                    <li class="cat-link-orther"><a href="/products/<%= categories[12]._id %>"><img class="icon-menu" alt="Funky roots" src="/assets/data/<%= 13 %>.png"><%= categories[12].name %></a></li>
+                </ul>
+                <div class="all-category"><span class="open-cate">Tất cả</span></div>
+            </div>
+          </div>
+        </div>
+        <div id="main-menu" class="col-sm-9 main-menu">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#">MENU</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Siêu Ưu Đãi</a>
+                                <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 830px;">
+                                    <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/images/dropdown_amthanh.jpg" alt="Phụ nữ quần áo & phụ kiện">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Phụ nữ quần áo & phụ kiện</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131453323030">LOA LAPTOP LP - S200</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131459383942">LOA BLUETOOTH Y89B</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131451313030">LOA LAPTOP LP - Q100</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162513930300d0a">LOA LAPTOP LP - Q900</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/images/dropdown_anninh.jpg" alt="Thiết bị an ninh">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Của nam giới quần áo & phụ kiện</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435651">VDT-360B AHD 1.0</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435649">CAMERA VDT-3330ZCVI</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435652">VDT-135AHD 1.0 DUM</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435654">CAMERA VDT-315IP 1.0</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nhãn hiệu đặc sắc</a>
+                                <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 830px;">
+                                    <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/men.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Thiết bị âm thanh</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333032">LOA RUBY 302</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333138">LOA CÂY RUBY 318 LỤC GIÁC</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/products/573fd9afe6f13b5c16e9ff4c">LOA LAPTOP LP - Q200</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162135753313333">LOA BLUETOOTH WS133</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/women.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Thiết bị an ninh</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435666">16 KÊNH VDT-4500 HD</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435669">ĐẦU GHI 16 KÊNH VDT-4500AHDL</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bộ sưu tập</a>
+                                <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 830px;">
+                                    <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/men.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Thiết bị âm thanh</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333032">LOA RUBY 302</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333138">LOA CÂY RUBY 318 LỤC GIÁC</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/products/573fd9afe6f13b5c16e9ff4c">LOA LAPTOP LP - Q200</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162135753313333">LOA BLUETOOTH WS133</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/trending.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Sản phẩm gia dụng</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435843">Cân ký điện tử 50kg cầm tay</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435848">Máy Làm Bún Mì Inox 2 Đầu</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435847">Máy Xay Cầm Tay Sokany</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435858">Đèn xông tinh dầu</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bán chạy nhất</a>
+                                <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 830px;">
+                                    <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/men.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Thiết bị âm thanh</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333032">LOA RUBY 302</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162131411333138">LOA CÂY RUBY 318 LỤC GIÁC</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/products/573fd9afe6f13b5c16e9ff4c">LOA LAPTOP LP - Q200</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b8162135753313333">LOA BLUETOOTH WS133</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="block-container col-sm-6">
+                                        <ul class="block">
+                                            <li class="img_container">
+                                                <a href="#">
+                                                    <img class="img-responsive" src="/assets/data/women.png" alt="sport">
+                                                </a>
+                                            </li>
+                                            <li class="link_container group_header">
+                                                <a href="#">Thiết bị an ninh</a>
+                                            </li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435666">16 KÊNH VDT-4500 HD</a></li>
+                                            <li class="link_container"><a href="http://localhost:3000/product/572ac38b333333305a435669">ĐẦU GHI 16 KÊNH VDT-4500AHDL</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li><a href="#">Công nghệ</a></li>
+                            <li><a href="/about">Khuynh hướng</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- userinfo on top-->
+    <div id="form-search-opntop">
+    </div>
+    <!-- userinfo on top-->
+    <div id="user-info-opntop">
+    </div>
+    <!-- CART ICON ON MMENU -->
+    <div id="shopping-cart-box-ontop">
+        <i class="fa fa-shopping-cart"></i>
+        <div class="shopping-cart-box-ontop-content"></div>
+    </div>
+</div>
+</div>
+
+<div id="home-slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 slider-left"></div>
+      <div class="col-sm-9 header-top-right">
+        <div class="homeslider">
+          <div class="content-slide">
+            <ul id="contenhomeslider">
+              <li><img alt="Funky roots" src="assets/images/aliexpress/banner_slider1.jpg" title="Watch Smart" /></li>
+              <li><img alt="Funky roots" src="assets/images/aliexpress/banner_slider2.jpg" title="Samsung S6" /></li>
+              <li><img  alt="Funky roots" src="assets/images/aliexpress/banner_slider3.jpg" title="Samsung S7" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="service ">
+    <div class="col-xs-6 col-sm-3 service-item">
+      <div class="icon">
+        <img alt="services" src="assets/data/s1.png" />
+      </div>
+      <div class="info">
+        <a href="#"><h3>Miễn Phí Giao Hàng</h3></a>
+        <span>Hóa đơn trên 200k</span>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-3 service-item">
+      <div class="icon">
+        <img alt="services" src="assets/data/s2.png" />
+      </div>
+      <div class="info">
+        <a href="#"><h3>Hoàn Trả Trong 30 Ngày</h3></a>
+        <span>Hoàn tiền 100%</span>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-3 service-item">
+      <div class="icon">
+        <img alt="services" src="assets/data/s3.png" />
+      </div>
+
+      <div class="info" >
+        <a href="#"><h3>Hỗ Trợ 24/7</h3></a>
+        <span>Hỗ trợ trực tuyến</span>
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-3 service-item">
+      <div class="icon">
+        <img alt="services" src="assets/data/s4.png" />
+      </div>
+      <div class="info">
+        <a href="#"><h3>Mua Sắm Uy Tính</h3></a>
+        <span>Đảm bảo an toàn</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="content-page">
+      <div class="container">
+        <!-- featured category fashion -->
+        <div class="category-featured">
+          <nav class="navbar nav-menu nav-menu-red show-brand">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/fashion.png" />Quần áo phụ nữ</a></div>
+              <span class="toggle-menu"></span>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a data-toggle="tab" href="#tab-4">Bán chạy</a></li>
+                  <li><a data-toggle="tab" href="#tab-5">Sản phẩm mới</a></li>
+                  <li><a data-toggle="tab" href="#tab-5">Quan tâm nhiều</a></li>
+                </ul>
+              </div>
+            </div><!-- /.container-fluid -->
+            <div id="elevator-1" class="floor-elevator">
+              <a href="#" class="btn-elevator up disabled fa fa-angle-up"></a>
+              <a href="#elevator-2" class="btn-elevator down fa fa-angle-down"></a>
+            </div>
+          </nav>
+          <div class="category-banner">
+            <div class="col-sm-6 banner">
+              <a href="#"><img alt="ads2" class="img-responsive" src="assets/images/banner_main1.jpg" /></a>
+            </div>
+            <div class="col-sm-6 banner">
+              <a href="#"><img alt="ads2" class="img-responsive" src="assets/images/banner_main2.jpg" /></a>
+            </div>
+          </div>
+          <div class="product-featured clearfix">
+            <div class="banner-featured">
+              <div class="featured-text"><span>Quần áo nữ</span></div>
+              <div class="banner-img">
+                <a href="#"><img alt="Featurered 1" src="assets/images/aliexpress/banner_woman.jpg" style="width:225px" /></a>
+              </div>
+            </div>
+            <div class="product-featured-content">
+              <div class="product-featured-list">
+                <div class="tab-container">
+                  <!-- tab product -->
+                  <div class="tab-panel active" id="tab-4">
+                    <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
+
+                      <% for(var i=0;i < 8;i++) { %>
+                        <li>
+                          <div class="left-block">
+                            <a href="/product/<%= products[i]._id %>">
+                              <img class="img-responsive" alt="<%= products[i].category.name %>" src="<%= products[i].image %>"/></a>
+                              <div class="quick-view">
+                                <a title="Add to my wishlist" class="heart" href="#"></a>
+                                <a title="Add to compare" class="compare" href="#"></a>
+                                <a title="Quick view" class="search" href="#"></a>
+                              </div>
+                              <div class="add-to-cart">
+                                <a title="Add to Cart" href="/product/<%= products[i]._id %>">Thêm giỏ hàng</a>
+                              </div>
+                            </div>
+                            <div class="right-block">
+                              <h5 class="product-name"><a href="/product/<%= products[i]._id %>"><%= products[i].name %></a></h5>
+                              <div class="content_price">
+                                <%
+                                if(products[i].price!=0){ %>
+                                  <span class="price product-price"><%= products[i].price %> USD</span>
+                                  <span class="price old-price"><%= parseFloat(products[i].price*1.5).toFixed(2) %> USD</span>
+                                <% }else { %>
+                                  <span class="price product-price">Giá Liên Hệ</span>
+
+                                <% } %>
+
+
+                              </div>
+                              <div class="product-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                              </div>
+                            </div>
+
+                          </li>
+                          <% } %>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <!-- featured category fashion -->
+              <div class="category-featured">
+                <nav class="navbar nav-menu nav-menu-blue show-brand">
+                  <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-brand"><a href="#"><img alt="fashion" src="assets/data/fashion.png" />Quần áo nam</a></div>
+                    <span class="toggle-menu"></span>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a data-toggle="tab" href="#tab-4">Bán chạy</a></li>
+                        <li><a data-toggle="tab" href="#tab-5">Sản phẩm mới</a></li>
+                        <li><a data-toggle="tab" href="#tab-5">Quan tâm nhiều</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                  <div id="elevator-1" class="floor-elevator">
+                    <a href="#" class="btn-elevator up disabled fa fa-angle-up"></a>
+                    <a href="#elevator-2" class="btn-elevator down fa fa-angle-down"></a>
+                  </div>
+                </nav>
+                <div class="category-banner">
+                  <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads2.jpg" /></a>
+                  </div>
+                  <div class="col-sm-6 banner">
+                    <a href="#"><img alt="ads2" class="img-responsive" src="assets/data/ads3.jpg" /></a>
+                  </div>
+                </div>
+                <div class="product-featured clearfix">
+                  <div class="banner-featured">
+                    <div class="featured-text"><span>Quần áo nam</span></div>
+                    <div class="banner-img">
+                      <a href="#"><img alt="Featurered 1" src="assets/images/aliexpress/banner_men.jpg" /></a>
+                    </div>
+                  </div>
+                  <div class="product-featured-content">
+                    <div class="product-featured-list">
+                      <div class="tab-container">
+                        <!-- tab product -->
+                        <div class="tab-panel active" id="tab-4">
+                          <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "0" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
+                            <% for(var i=90;i < 97;i++) { %>
+                              <li>
+
+                                <div class="left-block">
+                                  <a href="/product/<%= products[i]._id %>">
+                                    <img class="img-responsive" alt="<%= products[i].category.name %>" src="<%= products[i].image %>"/></a>
+                                    <div class="quick-view">
+                                      <a title="Add to my wishlist" class="heart" href="#"></a>
+                                      <a title="Add to compare" class="compare" href="#"></a>
+                                      <a title="Quick view" class="search" href="#"></a>
+                                    </div>
+                                    <div class="add-to-cart">
+                                      <a title="Add to Cart" href="/product/<%= products[i]._id %>">Add to Cart</a>
+                                    </div>
+                                  </div>
+                                  <div class="right-block">
+                                    <h5 class="product-name"><a href="/product/<%= products[i]._id %>"><%= products[i].name %></a></h5>
+                                    <div class="content_price">
+                                      <%
+                                      if(products[i].price!=0){ %>
+                                        <span class="price product-price"><%= products[i].price%> USD</span>
+                                        <span class="price old-price"><%= parseFloat(products[i].price*1.5).toFixed(2) %> USD</span>
+                                      <% }else { %>
+                                        <span class="price product-price">Giá Liên Hệ</span>
+
+                                      <% } %>
+                                    </div>
+                                    <div class="product-star">
+                                      <i class="fa fa-star"></i>
+                                      <i class="fa fa-star"></i>
+                                      <i class="fa fa-star"></i>
+                                      <i class="fa fa-star"></i>
+                                      <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                  </div>
+
+                                </li>
+                                <% } %>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                      <div class="container">
+                        <div class="brand-showcase">
+                          <h2 class="brand-showcase-title">
+                            brand showcase
+                          </h2>
+                          <div class="brand-showcase-box">
+                            <ul class="brand-showcase-logo owl-carousel" data-loop="true" data-nav = "true" data-dots="false" data-margin = "1" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":2},"600":{"items":5},"1000":{"items":8}}'>
+                              <li data-tab="showcase-1" class="item active"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
+                              <li data-tab="showcase-2" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
+                              <li data-tab="showcase-3" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
+                              <li data-tab="showcase-4" class="item"><img src="assets/data/gucci.png" alt="logo" class="item-img" /></li>
+
+                            </ul>
+                            <div class="brand-showcase-content">
+                              <div class="brand-showcase-content-tab active" id="showcase-1">
+                                <div class="row">
+                                  <div class="col-xs-12 col-sm-4 trademark-info">
+                                    <div class="trademark-logo">
+                                      <a href="#"><img src="assets/images/apple_ic.jpg" alt="trademark"></a>
+                                    </div>
+                                    <div class="trademark-desc">
+                                      Apple Inc. là tập đoàn công nghệ máy tính của Mỹ có trụ sở chính đặt tại Silicon Valley (Thung Lũng Si-li-côn) ở San Francisco, tiểu bang California. Apple được thành lập ngày 1 tháng 4 năm 1976 dưới tên Apple Computer, Inc., và đổi tên thành Apple Inc. vào đầu năm 2007. Với lượng sản phẩm bán ra toàn cầu hàng năm là 13,9 tỷ đô la Mỹ (2005), 74 triệu thiết bị iPhone được bán ra chỉ trong một quý 4 năm 2014 và có hơn 98.000 nhân viên ở nhiều quốc gia, sản phẩm là máy tính cá nhân, phần mềm, phần cứng, thiết bị nghe nhạc và nhiều thiết bị đa phương tiện khác.
+                                    </div>
+                                    <a href="#" class="trademark-link">shop this brand</a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-8 trademark-product">
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-repon" src="assets/data/p24.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p25.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p26.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p27.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="brand-showcase-content-tab" id="showcase-2">
+                                <div class="row">
+                                  <div class="col-xs-12 col-sm-4 trademark-info">
+                                    <div class="trademark-logo">
+                                      <a href="#"><img src="assets/images/toshiba_ic.jpg" alt="trademark"></a>
+                                    </div>
+                                    <div class="trademark-desc">
+                                      Công ty Toshiba (株式会社東芝 Kabushiki-gaisha Tōshiba?) là một công ty đa quốc gia công nghệ cao có trụ sở chính tại Tokyo, Nhật Bản. Sản phẩm và dịch vụ của công ty này bao gồm Công nghệ Thông tin, Thiết bị và hệ thống liên lạc, cơ sở hạ tầng cho công nghiệp và xã hội, dụng cụ điện dùng trong nhà, thiết bị y tế, thiết bị văn phòng.
+
+Toshiba được thành lập vào năm 1939 dưới tên Tokyo Shibaura Electric K.K. qua sự hợp nhất của Shibaura Seisaku-sho (thành lập năm 1875) và Tokyo Denki (thành lập năm 1890). Tên công ty đã được chình thức thay đổi sang Toshiba Corporation vào năm 1978.
+                                    </div>
+                                    <a href="#" class="trademark-link">shop this brand</a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-8 trademark-product">
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-repon" src="assets/data/p10.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p11.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p12.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p13.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+                              <div class="brand-showcase-content-tab" id="showcase-3">
+                                <div class="row">
+                                  <div class="col-xs-12 col-sm-4 trademark-info">
+                                    <div class="trademark-logo">
+                                      <a href="#"><img src="assets/images/razer_ic.jpg" alt="trademark"></a>
+                                    </div>
+                                    <div class="trademark-desc">
+
+Được thành lập vào năm 2005 tại San Diego, California bởi CEO Min-Liang Tan và Robert Krakoff, Razer đã bắt đầu trong một văn phòng chia sẻ nhỏ của game thủ, với một nhiệm vụ để tạo ra sản phẩm chất lượng cao được thiết kế chỉ để đáp ứng nhu cầu đòi hỏi của game thủ như mình.
+
+Ngày nay, với hàng trăm nhân viên trong văn phòng trên toàn thế giới, Razer được biết đến với sự theo đuổi không ngừng của sự hoàn thiện, đổi mới để tạo ra một nền tảng thống nhất của các thiết bị kết nối và phần mềm. Việc sử dụng công nghệ cắt cạnh, cùng với sự đóng góp của các vận động viên eSports hàng đầu, tiếp theo liên tục tinh chỉnh, đã dẫn đến một trải nghiệm tương tác, cạnh tranh, và nhập vai được thiết kế dành cho game thủ của game thủ.
+                                    </div>
+                                    <a href="#" class="trademark-link">shop this brand</a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-8 trademark-product">
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-repon" src="assets/data/p14.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p15.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p16.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p17.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="brand-showcase-content-tab" id="showcase-4">
+                                <div class="row">
+                                  <div class="col-xs-12 col-sm-4 trademark-info">
+                                    <div class="trademark-logo">
+                                      <a href="#"><img src="assets/images/sony_ic.jpg" alt="trademark"></a>
+                                    </div>
+                                    <div class="trademark-desc">
+                                      Công ty công nghiệp Sony (ソニー株式会社/Sony Corporation), gọi tắt là Sony, là một tập đoàn đa quốc gia của Nhật Bản, với trụ sở chính nằm tại Minato, Tokyo, Nhật Bản, và là tập đoàn điện tử đứng thứ 5 thế giới với 81,64 tỉ USD (2011). Sony là một trong những công ty hàng đầu thế giới về điện tử, sản xuất tivi, máy ảnh, máy tính xách tay và đồ dân dụng khác.
+
+Được thành lập vào tháng 5/1946 tại Nihonbashi Tokyo được mang tên là Tokyo Tsushin Kogyo K.K (東京通信工業株式会社, Đông Kinh Thông tin Công nghiệp Chu Thức Hội Xã) với số vốn ban đầu là 190.000 yên. Công ty này đổi tên thành Sony vào tháng 1/1958.
+
+Từ "Sony" là kết hợp của từ "sonus" trong tiếng La-tinh (âm thanh) và từ "sonny" trong tiếng Anh (cậu bé nhanh nhẹn thông minh) theo cách gọi tên thân mật. Những nhà sáng lập hy vọng tên "Sony" thể hiện tinh thần nhiệt huyết và sáng tạo của giới trẻ.
+                                    </div>
+                                    <a href="#" class="trademark-link">shop this brand</a>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-8 trademark-product">
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-repon" src="assets/data/p18.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p19.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p20.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                      <div class="col-xs-12 col-sm-6 product-item">
+                                        <div class="image-product hover-zoom">
+                                          <a href="#"><img class="img-responsive" src="assets/data/p21.jpg" alt=""></a>
+                                        </div>
+                                        <div class="info-product">
+                                          <a href="#">
+                                            <h5>Maecenas consequat mauris</h5>
+                                          </a>
+                                          <span class="product-price">$38.87</span>
+                                          <div class="product-star">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                          </div>
+                                          <a class="btn-view-more" title="View More" href="#">Chi tiết</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="content-wrap">
+                        <div class="container">
+                          <div id="hot-categories" class="row">
+                            <div class="col-sm-12 group-title-box">
+                              <h2 class="group-title ">
+                                <span>Danh mục yêu thích</span>
+                              </h2>
+                            </div>
+
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[0].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link link-active" data-ac="flipInX" ><span>Xem thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/dientu_ic.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435870">ĐẦU ĐĨA RUBY E 999</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435875">TIVI LED RUBY 23'</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435877">ĐÈN LED CẢM Ứng SS71</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435867">Máy bắn đinh ốc vít bê tông</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[2].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/camera_ic.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="http://localhost:3000/product/572ac38b8133303630435649">CAMERA VDT-3060CVI 1.3</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435659">8 KÊNH VDT - 3600AHDL-B</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435663">8 KÊNH VDT - 3600 HDCVI</a></li>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435656">CAMERA VDT-315SDI 2.0</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[3].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem Thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/maytinh_ic.jpg" alt="Electronics" class="hot-cate-img"/>
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="http://localhost:3000/product/572ac38b333333305a435670">MAINBOARD GIGABYTE B75M</a></li>
+                                  <li><a href="#">COMBO Bosston 839</a></li>
+                                  <li><a href="#">MOUSE R8 - 1658 LED</a></li>
+                                  <li><a href="#">HP EACH G3100</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[4].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem Thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/ngoaivi.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="#">READER ALL IN ONE – SSK</a></li>
+                                  <li><a href="#">READER ALL IN ONE – HOA VĂN</a></li>
+                                  <li><a href="#">HÚT BUI BÀN PHÍM MINI</a></li>
+                                  <li><a href="#">MIC OVAN M 397</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[5].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>shop now</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/mobile.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="#">PW ONEX 013 70000MAH</a></li>
+                                  <li><a href="#">TN BLUETOOTH IP S6</a></li>
+                                  <li><a href="#">TN BLUETOOTH IP6 PLUS</a></li>
+                                  <li><a href="#">TAI NGHE BLUETOOTH THỂ THAO</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[6].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem Thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/mypham_ic.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="#">Máy massage pro đệm xe thắt lưng</a></li>
+                                  <li><a href="#">Bút Lăn Massage</a></li>
+                                  <li><a href="#">Phấn Nhuộm Tóc Hot Huez</a></li>
+                                  <li><a href="#">Máy Sấy Tóc Mini</a></li>
+                                </ul>
+                              </div>
+                            </div><!-- /.cate-box -->
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[7].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem Thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/loa_ic.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="#">LOA LAPTOP LP - S200</a></li>
+                                  <li><a href="#">LOA LAPTOP LP - Q900</a></li>
+                                  <li><a href="#">LOA CÂY RUBY 318 LỤC GIÁC</a></li>
+                                  <li><a href="#">LOA BLUETOOTH BOSE BE8</a></li>
+                                </ul>
+                              </div>
+                            </div> <!-- /.cate-box -->
+                            <div class="col-sm-6  col-lg-3 cate-box">
+                              <div class="cate-tit" >
+                                <div class="div-1" style="width: 46%;">
+                                  <div class="cate-name-wrap">
+                                    <p class="cate-name"><%=categories[8].name%></p>
+                                  </div>
+                                  <a href="" class="cate-link" data-ac="flipInX" ><span>Xem Thêm</span></a>
+                                </div>
+                                <div class="div-2" >
+                                  <a href="#">
+                                    <img src="assets/images/bep_ic.jpg" alt="Electronics" class="hot-cate-img" />
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="cate-content">
+                                <ul>
+                                  <li><a href="#">Cân ký điện tử 50kg cầm tay</a></li>
+                                  <li><a href="#">Máy Đánh Trứng Philips Mini</a></li>
+                                  <li><a href="#">Máy Xay Cầm Tay Sokany</a></li>
+                                  <li><a href="#">Máy Làm Bún Mì Inox 2 Đầu</a></li>
+                                </ul>
+                              </div>
+                            </div><!-- /.cate-box -->
+                          </div> <!-- /#hot-categories -->
+
+                        </div>

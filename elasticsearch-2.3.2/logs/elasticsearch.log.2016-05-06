@@ -1,0 +1,52 @@
+[2016-05-06 09:40:47,486][INFO ][node                     ] [Lee Forrester] version[2.3.2], pid[7160], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-06 09:40:47,496][INFO ][node                     ] [Lee Forrester] initializing ...
+[2016-05-06 09:40:50,106][INFO ][plugins                  ] [Lee Forrester] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-06 09:40:50,285][INFO ][env                      ] [Lee Forrester] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-06 09:40:50,294][INFO ][env                      ] [Lee Forrester] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-06 09:40:59,833][INFO ][node                     ] [Lee Forrester] initialized
+[2016-05-06 09:40:59,837][INFO ][node                     ] [Lee Forrester] starting ...
+[2016-05-06 09:41:00,234][INFO ][transport                ] [Lee Forrester] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-06 09:41:00,260][INFO ][discovery                ] [Lee Forrester] elasticsearch/x25McnCZSQufiDBRx9Sc7w
+[2016-05-06 09:41:04,331][INFO ][cluster.service          ] [Lee Forrester] new_master {Lee Forrester}{x25McnCZSQufiDBRx9Sc7w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-06 09:41:04,497][INFO ][http                     ] [Lee Forrester] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-06 09:41:04,522][INFO ][node                     ] [Lee Forrester] started
+[2016-05-06 09:41:04,657][INFO ][gateway                  ] [Lee Forrester] recovered [1] indices into cluster_state
+[2016-05-06 09:41:08,858][INFO ][cluster.routing.allocation] [Lee Forrester] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-06 15:07:22,940][INFO ][node                     ] [Ghost Maker] version[2.3.2], pid[3196], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-06 15:07:22,945][INFO ][node                     ] [Ghost Maker] initializing ...
+[2016-05-06 15:07:24,666][INFO ][plugins                  ] [Ghost Maker] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-06 15:07:24,876][INFO ][env                      ] [Ghost Maker] using [1] data paths, mounts [[Data D (E:)]], net usable_space [302gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-06 15:07:24,881][INFO ][env                      ] [Ghost Maker] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-06 15:07:32,232][INFO ][node                     ] [Ghost Maker] initialized
+[2016-05-06 15:07:32,234][INFO ][node                     ] [Ghost Maker] starting ...
+[2016-05-06 15:07:32,683][INFO ][transport                ] [Ghost Maker] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-06 15:07:32,698][INFO ][discovery                ] [Ghost Maker] elasticsearch/i4QDWlb4SxWMvz7TSPxRFA
+[2016-05-06 15:07:36,792][INFO ][cluster.service          ] [Ghost Maker] new_master {Ghost Maker}{i4QDWlb4SxWMvz7TSPxRFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-06 15:07:37,021][INFO ][http                     ] [Ghost Maker] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-06 15:07:37,027][INFO ][node                     ] [Ghost Maker] started
+[2016-05-06 15:07:37,028][INFO ][gateway                  ] [Ghost Maker] recovered [1] indices into cluster_state
+[2016-05-06 15:07:38,995][INFO ][cluster.routing.allocation] [Ghost Maker] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-05-06 15:47:29,267][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-06 15:47:29,274][INFO ][node                     ] [Ghost Maker] stopping ...
+[2016-05-06 15:47:29,440][INFO ][node                     ] [Ghost Maker] stopped
+[2016-05-06 15:47:29,442][INFO ][node                     ] [Ghost Maker] closing ...
+[2016-05-06 15:47:29,457][INFO ][node                     ] [Ghost Maker] closed
+[2016-05-06 16:17:23,241][INFO ][node                     ] [Joe Fixit] version[2.3.2], pid[7108], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-06 16:17:23,241][INFO ][node                     ] [Joe Fixit] initializing ...
+[2016-05-06 16:17:24,074][INFO ][plugins                  ] [Joe Fixit] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-06 16:17:24,106][INFO ][env                      ] [Joe Fixit] using [1] data paths, mounts [[Data D (E:)]], net usable_space [301.6gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-06 16:17:24,106][INFO ][env                      ] [Joe Fixit] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-06 16:17:26,630][INFO ][node                     ] [Joe Fixit] initialized
+[2016-05-06 16:17:26,630][INFO ][node                     ] [Joe Fixit] starting ...
+[2016-05-06 16:17:26,831][INFO ][transport                ] [Joe Fixit] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-06 16:17:26,831][INFO ][discovery                ] [Joe Fixit] elasticsearch/AhebyBkLRhCS14XXuqSN9A
+[2016-05-06 16:17:30,870][INFO ][cluster.service          ] [Joe Fixit] new_master {Joe Fixit}{AhebyBkLRhCS14XXuqSN9A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-06 16:17:31,017][INFO ][http                     ] [Joe Fixit] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-06 16:17:31,017][INFO ][node                     ] [Joe Fixit] started
+[2016-05-06 16:17:31,017][INFO ][gateway                  ] [Joe Fixit] recovered [1] indices into cluster_state
+[2016-05-06 16:17:32,097][INFO ][cluster.routing.allocation] [Joe Fixit] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-05-06 16:30:09,389][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-06 16:30:09,392][INFO ][node                     ] [Joe Fixit] stopping ...
+[2016-05-06 16:30:09,494][INFO ][node                     ] [Joe Fixit] stopped
+[2016-05-06 16:30:09,497][INFO ][node                     ] [Joe Fixit] closing ...
+[2016-05-06 16:30:09,523][INFO ][node                     ] [Joe Fixit] closed

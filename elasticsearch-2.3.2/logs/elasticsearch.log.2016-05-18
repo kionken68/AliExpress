@@ -1,0 +1,19 @@
+[2016-05-18 14:13:31,871][INFO ][node                     ] [White Queen] version[2.3.2], pid[5760], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-18 14:13:31,871][INFO ][node                     ] [White Queen] initializing ...
+[2016-05-18 14:13:32,512][INFO ][plugins                  ] [White Queen] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-18 14:13:32,527][INFO ][env                      ] [White Queen] using [1] data paths, mounts [[Data D (E:)]], net usable_space [270.1gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-18 14:13:32,527][INFO ][env                      ] [White Queen] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-18 14:13:34,867][INFO ][node                     ] [White Queen] initialized
+[2016-05-18 14:13:34,867][INFO ][node                     ] [White Queen] starting ...
+[2016-05-18 14:13:35,070][INFO ][transport                ] [White Queen] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-18 14:13:35,070][INFO ][discovery                ] [White Queen] elasticsearch/2dSAHVkNTNGwkTN7OFetfA
+[2016-05-18 14:13:39,192][INFO ][cluster.service          ] [White Queen] new_master {White Queen}{2dSAHVkNTNGwkTN7OFetfA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-18 14:13:39,333][INFO ][http                     ] [White Queen] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-18 14:13:39,333][INFO ][node                     ] [White Queen] started
+[2016-05-18 14:13:39,411][INFO ][gateway                  ] [White Queen] recovered [1] indices into cluster_state
+[2016-05-18 14:13:40,870][INFO ][cluster.routing.allocation] [White Queen] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][4], [products][4]] ...]).
+[2016-05-18 17:52:29,848][INFO ][bootstrap                ] running graceful exit on windows
+[2016-05-18 17:52:29,854][INFO ][node                     ] [White Queen] stopping ...
+[2016-05-18 17:52:30,166][INFO ][node                     ] [White Queen] stopped
+[2016-05-18 17:52:30,167][INFO ][node                     ] [White Queen] closing ...
+[2016-05-18 17:52:30,229][INFO ][node                     ] [White Queen] closed

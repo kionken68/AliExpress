@@ -1,0 +1,154 @@
+
+<div id="header" class="header">
+    <div class="top-header">
+        <div class="container">
+            <div class="nav-top-links">
+                <a class="first-item" href="#"><img alt="phone" src="/assets/images/phone.png" />096.353.2421</a>
+                <a href="#"><img alt="email" src="/assets/images/email.png" />Liên hệ</a>
+            </div>
+
+            <div class="language ">
+                <div class="dropdown">
+                      <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+                      <img alt="email" src="/assets/images/en.jpg" />USD</a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#"><img alt="email" src="/assets/images/vi_VN.png" />VND</a></li>
+                        <li><a href="#"><img alt="email" src="/assets/images/en.jpg" />USD</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="support-link">
+              <div id="user-info-top" class="user-info pull-right">
+                  <div class="dropdown">
+                      <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>Trợ giúp</span></a>
+                      <ul class="dropdown-menu mega_dropdown" role="menu">
+                        <li><a href="#">Dịch vụ khách hàng</a></li>
+                        <li><a href="#">Khiếu nại</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <a href="#">Bảo vệ Người mua</a>
+            </div>
+
+            <% if(!user){%>
+              <div id="user-info-top" class="user-info pull-right">
+                  <div class="dropdown">
+                      <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>Tài Khoản</span></a>
+                      <ul class="dropdown-menu mega_dropdown" role="menu">
+                        <li><a href="/login">Đăng nhập</a></li>
+                        <li><a href="/signup">Đăng ký</a></li>
+                      </ul>
+                  </div>
+              </div>
+            <% } else { %>
+
+            <div id="user-info-top" class="user-info pull-right">
+                <div class="dropdown">
+                    <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><%= user.profile.name %></span></a>
+                    <ul class="dropdown-menu mega_dropdown" role="menu">
+                      <li><a href="/logout">Đăng xuất</a></li>
+                      <li><a href="/profile">AliExpress của tôi</a></li>
+                      <li><a href="#">Đơn đặt hàng</a></li>
+                      <li><a href="#">Trung tâm thông báo</a></li>
+                      <li><a href="#">Danh sách của tôi</a></li>
+                      <li><a href="#">Cửa hàng yêu thích</a></li>
+                      <li><a href="#">Phiếu giảm giá</a></li>
+                      <li><a href="#">Alipay của tôi</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <% } %>
+
+
+        </div>
+    </div>
+
+    <!--/.top-header -->
+    <!-- MAIN HEADER -->
+    <div class="container main-header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 logo">
+                <a href="/">
+                  <span class="logo-base"><img alt="AliExpress" src="/assets/images/aliexpress/logo.png" /></span><br />
+                  <span class="logo-slogan">Mua sắm thông minh hơn, Sống tốt hơn!</span>
+                </a>
+            </div>
+            <div class="col-xs-7 col-sm-7 header-search-box">
+                <form class="form-inline">
+                      <div class="form-group form-category">
+                        <select class="select-category">
+                            <option value="2">Tìm Kiếm</option>
+                        </select>
+                      </div>
+                      <div class="form-group input-serach">
+                        <input type="text" name="search_term" id="search" placeholder="Từ khóa...">
+                      </div>
+                      <button type="submit" class="pull-right btn-search"></button>
+                </form>
+            </div>
+
+            <div class="col-xs-5 col-sm-2 group-button-header">
+                            <a title="Compare" href="#" class="btn-compare">compare</a>
+                            <a title="My wishlist" href="#" class="btn-heart">wishlist</a>
+                            <div class="btn-cart" id="cart-block">
+                              <% if(user){ %>
+                                <a title="My cart" href="/cart">Cart</a>
+                                <% } else { %>
+                                  <a title="My cart" href="/login">Cart</a>
+                                  <% } %>
+
+
+                                <span class="notify notify-right"><%= cart %></span>
+                                <div class="cart-block">
+                                    <div class="cart-block-content">
+                                        <h5 class="cart-title"><%= count %> sản phẩm - <%=totalPrice %> USD</h5>
+                                        <div class="cart-block-list">
+                                            <ul>
+                                            <li class="product-info">
+                                                <div class="p-left">
+                                                    <a href="#" class="remove_link"></a>
+                                                    <a href="#">
+                                                    <img class="img-responsive" src="assets/data/product-100x122.jpg" alt="p10">
+                                                    </a>
+                                                </div>
+                                                <div class="p-right">
+                                                    <p class="p-name">Donec Ac Tempus</p>
+                                                    <p class="p-rice">61,19 €</p>
+                                                    <p>Qty: 1</p>
+                                                </div>
+                                            </li>
+                                            <li class="product-info">
+                                                <div class="p-left">
+                                                    <a href="#" class="remove_link"></a>
+                                                    <a href="#">
+                                                    <img class="img-responsive" src="assets/data/product-s5-100x122.jpg" alt="p10">
+                                                    </a>
+                                                </div>
+                                                <div class="p-right">
+                                                    <p class="p-name">Donec Ac Tempus</p>
+                                                    <p class="p-rice">61,19 €</p>
+                                                    <p>Qty: 1</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        </div>
+                                        <div class="toal-cart">
+                                            <span>Total</span>
+                                            <span class="toal-price pull-right">122.38 €</span>
+                                        </div>
+                                        <div class="cart-buttons">
+                                            <a href="order.html" class="btn-check-out">Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+    </div>
