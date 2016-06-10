@@ -311,7 +311,7 @@
 /*--------------------
 [4. Styles for devices(>=481px and <=767px)]
 */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 	.home .box-vertical-megamenus .vertical-menu-content{
 		display: none;
 	}
@@ -345,7 +345,7 @@
 	.main-header .shopping-cart-box{
 		padding-left: 15px;
 		padding-right: 15px;
-		margin-left:0; 
+		margin-left:0;
 		width: 100%;
 	}
 	#box-vertical-megamenus{
@@ -369,7 +369,7 @@
 	}
 	.box-vertical-megamenus .vertical-menu-content ul li a.parent:before {
 		display: none;
-	} 
+	}
 	.popular-tabs .nav-tab li{
 		padding: 0;
 	}
@@ -561,7 +561,7 @@
 		border-right: none;
 		position: relative;
 	}
-	#main-menu .navbar .navbar-nav>li:hover>a, 
+	#main-menu .navbar .navbar-nav>li:hover>a,
 	#main-menu .navbar .navbar-nav>li.active>a {
 	  color: #333;
 	  border-right: 1px solid transparent;
@@ -683,6 +683,32 @@
 [5. Styles for devices(<=480px)]
 */
 @media (max-width: 480px) {
+  .top-header .language, .top-header .support-link{
+		display: none;
+	}
+	.product-list li .left-block{
+		padding: 0;
+	}
+	.product-list li .right-block .product-name{
+		display: none;
+	}
+	.product-list li .product-price{
+		font-size: 12px;
+	}
+	.product-list li .old-price{
+			font-size: 10px;
+			margin: 0;
+	}
+	.product-list li .product-star{
+		font-size: 10px;
+	}
+	.option2 .product-featured .product-list li{
+		min-height: 204px;
+	}
+
+	.top-header #user-info-top{
+		display: none;
+	}
 	.top-banner{
 		display: none;
 	}
@@ -712,7 +738,7 @@
 	.main-header .shopping-cart-box{
 		padding-left: 15px;
 		padding-right: 15px;
-		margin-left:0; 
+		margin-left:0;
 		width: 100%;
 		margin-top: 30px;
 	}
@@ -866,7 +892,7 @@
 	.category-slider{
 		margin-top: 30px;
 	}
-	.category-slider .owl-controls .owl-prev, 
+	.category-slider .owl-controls .owl-prev,
 	.category-slider .owl-controls .owl-next {
 	  width: 20px;
 	  height: 20px;
@@ -1016,7 +1042,7 @@
 		border-right: none;
 		position: relative;
 	}
-	#main-menu .navbar .navbar-nav>li:hover>a, 
+	#main-menu .navbar .navbar-nav>li:hover>a,
 	#main-menu .navbar .navbar-nav>li.active>a {
 	  color: #333;
 	  border-right: 1px solid transparent;
